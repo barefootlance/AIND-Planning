@@ -1,0 +1,1251 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AC3	../aimacode/csp.py	/^def AC3(csp, queue=None, removals=None):$/;"	kind:function	line:160
+AIMAFile	../aimacode/utils.py	/^def AIMAFile(components, mode='r'):$/;"	kind:function	line:334
+ALPHABET	../aimacode/search.py	/^ALPHABET = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'$/;"	kind:variable	line:890
+Action	../aimacode/planning.py	/^class Action:$/;"	kind:class	line:37
+AdaBoost	../aimacode/learning.py	/^def AdaBoost(L, K):$/;"	kind:function	line:681
+Agent	../aimacode/agents.py	/^class Agent(Thing):$/;"	kind:class	line:71
+AirCargoProblem	../my_air_cargo_problems.py	/^class AirCargoProblem(Problem):$/;"	kind:class	line:13
+Arad	../aimacode/search.py	/^    Arad=(91, 492), Bucharest=(400, 327), Craiova=(253, 288),$/;"	kind:variable	line:725
+Arad	../aimacode/search.py	/^    Arad=dict(Zerind=75, Sibiu=140, Timisoara=118),$/;"	kind:variable	line:711
+Arrow	../aimacode/agents.py	/^class Arrow(Thing):$/;"	kind:class	line:652
+B	../aimacode/games.py	/^                 B=dict(b1='B1', b2='B2', b3='B3'),$/;"	kind:variable	line:213
+BackPropagationLearner	../aimacode/learning.py	/^def BackPropagationLearner(dataset, net, learning_rate, epoches):$/;"	kind:function	line:525
+BayesNet	../aimacode/probability.py	/^class BayesNet:$/;"	kind:class	line:166
+BayesNode	../aimacode/probability.py	/^class BayesNode:$/;"	kind:class	line:205
+BoggleFinder	../aimacode/search.py	/^class BoggleFinder:$/;"	kind:class	line:1007
+Bool	../aimacode/utils.py	/^class Bool(int):$/;"	kind:class	line:614
+Breeze	../aimacode/agents.py	/^class Breeze(Thing):$/;"	kind:class	line:648
+Bucharest	../aimacode/search.py	/^    Bucharest=dict(Urziceni=85, Pitesti=101, Giurgiu=90, Fagaras=211),$/;"	kind:variable	line:712
+Bump	../aimacode/agents.py	/^class Bump(Thing):$/;"	kind:class	line:639
+C	../aimacode/games.py	/^                 C=dict(c1='C1', c2='C2', c3='C3'),$/;"	kind:variable	line:214
+CSP	../aimacode/csp.py	/^class CSP(search.Problem):$/;"	kind:class	line:14
+CYK_parse	../aimacode/nlp.py	/^def CYK_parse(words, grammar):$/;"	kind:function	line:192
+Canvas	../aimacode/canvas.py	/^class Canvas:$/;"	kind:class	line:12
+Canvas_TicTacToe	../aimacode/games.py	/^class Canvas_TicTacToe(Canvas):$/;"	kind:class	line:321
+Cell	../aimacode/csp.py	/^    Cell = _CELL$/;"	kind:variable	line:557
+Chart	../aimacode/nlp.py	/^class Chart:$/;"	kind:class	line:119
+ConnectFour	../aimacode/games.py	/^class ConnectFour(TicTacToe):$/;"	kind:class	line:308
+ContinuousWorld	../aimacode/agents.py	/^class ContinuousWorld(Environment):$/;"	kind:class	line:528
+ContinuousWorldView	../aimacode/ipyviews.py	/^class ContinuousWorldView:$/;"	kind:class	line:29
+ContinuousXor	../aimacode/learning.py	/^def ContinuousXor(n):$/;"	kind:function	line:963
+ConvergenceDetector	../aimacode/nlp.py	/^class ConvergenceDetector(object):$/;"	kind:class	line:315
+CountingProbDist	../aimacode/learning.py	/^class CountingProbDist:$/;"	kind:class	line:180
+Craiova	../aimacode/search.py	/^    Craiova=dict(Drobeta=120, Rimnicu=146, Pitesti=138),$/;"	kind:variable	line:713
+D	../aimacode/agents.py	/^    D = "down"$/;"	kind:variable	line:337
+D	../aimacode/games.py	/^                 D=dict(d1='D1', d2='D2', d3='D3'))$/;"	kind:variable	line:215
+DTAgentProgram	../aimacode/probability.py	/^def DTAgentProgram(belief_state):$/;"	kind:function	line:18
+DataFile	../aimacode/utils.py	/^def DataFile(name, mode='r'):$/;"	kind:function	line:343
+DataSet	../aimacode/learning.py	/^class DataSet:$/;"	kind:class	line:45
+DecisionFork	../aimacode/learning.py	/^class DecisionFork:$/;"	kind:class	line:292
+DecisionLeaf	../aimacode/learning.py	/^class DecisionLeaf:$/;"	kind:class	line:324
+DecisionListLearner	../aimacode/learning.py	/^def DecisionListLearner(dataset):$/;"	kind:function	line:413
+DecisionTreeLearner	../aimacode/learning.py	/^def DecisionTreeLearner(dataset):$/;"	kind:function	line:343
+Direction	../aimacode/agents.py	/^class Direction():$/;"	kind:class	line:325
+Dirt	../aimacode/agents.py	/^class Dirt(Thing):$/;"	kind:class	line:549
+Document	../aimacode/text.py	/^class Document:$/;"	kind:class	line:192
+Drobeta	../aimacode/search.py	/^    Drobeta=(165, 299), Eforie=(562, 293), Fagaras=(305, 449),$/;"	kind:variable	line:726
+Drobeta	../aimacode/search.py	/^    Drobeta=dict(Mehadia=75),$/;"	kind:variable	line:714
+E0	../aimacode/nlp.py	/^E0 = Grammar('E0',$/;"	kind:variable	line:57
+E_	../aimacode/nlp.py	/^E_ = Grammar('E_',  # Trivial Grammar and lexicon for testing$/;"	kind:variable	line:79
+E_NP_	../aimacode/nlp.py	/^E_NP_ = Grammar('E_NP_',  # another trivial grammar for testing$/;"	kind:variable	line:92
+Eforie	../aimacode/search.py	/^    Eforie=dict(Hirsova=86),$/;"	kind:variable	line:715
+EnsembleLearner	../aimacode/learning.py	/^def EnsembleLearner(learners):$/;"	kind:function	line:668
+Environment	../aimacode/agents.py	/^class Environment(object):$/;"	kind:class	line:225
+Explorer	../aimacode/agents.py	/^class Explorer(Agent):$/;"	kind:class	line:667
+Expr	../aimacode/utils.py	/^class Expr(object):$/;"	kind:class	line:354
+Expression	../aimacode/utils.py	/^Expression = (Expr, Number)$/;"	kind:variable	line:435
+F	../aimacode/utils.py	/^F = Bool(False)$/;"	kind:variable	line:619
+FIFOQueue	../aimacode/utils.py	/^class FIFOQueue(Queue):$/;"	kind:class	line:544
+Factor	../aimacode/probability.py	/^class Factor:$/;"	kind:class	line:368
+Fagaras	../aimacode/search.py	/^    Fagaras=dict(Sibiu=99),$/;"	kind:variable	line:716
+Fig52Game	../aimacode/games.py	/^class Fig52Game(Game):$/;"	kind:class	line:209
+FluentState	../lp_utils.py	/^class FluentState():$/;"	kind:class	line:5
+FolKB	../aimacode/logic.py	/^class FolKB(KB):$/;"	kind:class	line:875
+GAState	../aimacode/search.py	/^class GAState:$/;"	kind:class	line:598
+Game	../aimacode/games.py	/^class Game:$/;"	kind:class	line:172
+GameState	../aimacode/games.py	/^GameState = namedtuple('GameState', 'to_move, utility, board, moves')$/;"	kind:variable	line:10
+Giurgiu	../aimacode/search.py	/^    Giurgiu=(375, 270), Hirsova=(534, 350), Iasi=(473, 506),$/;"	kind:variable	line:727
+Glitter	../aimacode/agents.py	/^class Glitter(Thing):$/;"	kind:class	line:642
+Gold	../aimacode/agents.py	/^class Gold(Thing):$/;"	kind:class	line:632
+Grammar	../aimacode/nlp.py	/^class Grammar:$/;"	kind:class	line:34
+Graph	../aimacode/search.py	/^class Graph:$/;"	kind:class	line:621
+GraphProblem	../aimacode/search.py	/^class GraphProblem(Problem):$/;"	kind:class	line:789
+GraphProblemStochastic	../aimacode/search.py	/^class GraphProblemStochastic(GraphProblem):$/;"	kind:class	line:817
+GridMDP	../aimacode/mdp.py	/^class GridMDP(MDP):$/;"	kind:class	line:54
+GridWorldView	../aimacode/ipyviews.py	/^class GridWorldView:$/;"	kind:class	line:88
+HITS	../aimacode/nlp.py	/^def HITS(query):$/;"	kind:function	line:372
+HaveCakeProblem	../example_have_cake.py	/^class HaveCakeProblem(Problem):$/;"	kind:class	line:16
+HiddenMarkovModel	../aimacode/probability.py	/^class HiddenMarkovModel:$/;"	kind:class	line:528
+Hirsova	../aimacode/search.py	/^    Hirsova=dict(Urziceni=98),$/;"	kind:variable	line:717
+HybridWumpusAgent	../aimacode/logic.py	/^class HybridWumpusAgent(agents.Agent):$/;"	kind:class	line:675
+I	../aimacode/learning.py	/^        def I(examples):$/;"	kind:function	line:387
+IRSystem	../aimacode/text.py	/^class IRSystem:$/;"	kind:class	line:107
+Iasi	../aimacode/search.py	/^    Iasi=dict(Vaslui=92, Neamt=87),$/;"	kind:variable	line:718
+InstrumentedProblem	../aimacode/search.py	/^class InstrumentedProblem(Problem):$/;"	kind:class	line:1101
+JointProbDist	../aimacode/probability.py	/^class JointProbDist(ProbDist):$/;"	kind:class	line:86
+KB	../aimacode/logic.py	/^class KB:$/;"	kind:class	line:47
+KB_AgentProgram	../aimacode/logic.py	/^def KB_AgentProgram(KB):$/;"	kind:function	line:112
+L	../aimacode/agents.py	/^    L = "left"$/;"	kind:variable	line:335
+LRTAStarAgent	../aimacode/search.py	/^class LRTAStarAgent:$/;"	kind:class	line:513
+LRTA_cost	../aimacode/search.py	/^    def LRTA_cost(self, s, a, s1, H):$/;"	kind:member	line:552
+LRTA_problem	../aimacode/tests/test_search.py	/^LRTA_problem = OnlineSearchProblem('State_3', 'State_5', one_dim_state_space)$/;"	kind:variable	line:7
+Lexicon	../aimacode/nlp.py	/^def Lexicon(**rules):$/;"	kind:function	line:24
+Linearlearner	../aimacode/learning.py	/^def Linearlearner(dataset, learning_rate=0.01, epochs=100):$/;"	kind:function	line:630
+Lugoj	../aimacode/search.py	/^    Lugoj=(165, 379), Mehadia=(168, 339), Neamt=(406, 537),$/;"	kind:variable	line:728
+Lugoj	../aimacode/search.py	/^    Lugoj=dict(Timisoara=111, Mehadia=70),$/;"	kind:variable	line:719
+MDP	../aimacode/mdp.py	/^class MDP:$/;"	kind:class	line:15
+Majority	../aimacode/learning.py	/^def Majority(k, n):$/;"	kind:function	line:936
+MapColoringCSP	../aimacode/csp.py	/^def MapColoringCSP(colors, neighbors):$/;"	kind:function	line:355
+ModelBasedReflexAgentProgram	../aimacode/agents.py	/^def ModelBasedReflexAgentProgram(rules, update_state):$/;"	kind:function	line:148
+ModelBasedVacuumAgent	../aimacode/agents.py	/^def ModelBasedVacuumAgent():$/;"	kind:function	line:204
+ModelMDP	../aimacode/rl.py	/^    class ModelMDP(MDP):$/;"	kind:class	line:16
+NNUnit	../aimacode/learning.py	/^class NNUnit:$/;"	kind:class	line:486
+NOT	../aimacode/logic.py	/^        def NOT(b):$/;"	kind:function	line:338
+NQueensCSP	../aimacode/csp.py	/^class NQueensCSP(CSP):$/;"	kind:class	line:415
+NQueensProblem	../aimacode/search.py	/^class NQueensProblem(Problem):$/;"	kind:class	line:836
+NSW	../aimacode/search.py	/^    NSW=dict(Q=1, V=1)))$/;"	kind:variable	line:783
+NT	../aimacode/search.py	/^    NT=dict(WA=1, Q=1),$/;"	kind:variable	line:782
+NaiveBayesLearner	../aimacode/learning.py	/^def NaiveBayesLearner(dataset):$/;"	kind:function	line:250
+NearestNeighborLearner	../aimacode/learning.py	/^def NearestNeighborLearner(dataset, k=1):$/;"	kind:function	line:280
+NeuralNetLearner	../aimacode/learning.py	/^def NeuralNetLearner(dataset, hidden_layer_sizes=[3],$/;"	kind:function	line:445
+NgramTextModel	../aimacode/text.py	/^class NgramTextModel(CountingProbDist):$/;"	kind:class	line:29
+Node	../aimacode/search.py	/^class Node:$/;"	kind:class	line:77
+Number	../aimacode/utils.py	/^Number = (int, float, complex)$/;"	kind:variable	line:434
+Obstacle	../aimacode/agents.py	/^class Obstacle(Thing):$/;"	kind:class	line:513
+OnlineDFSAgent	../aimacode/search.py	/^class OnlineDFSAgent:$/;"	kind:class	line:426
+OnlineSearchProblem	../aimacode/search.py	/^class OnlineSearchProblem(Problem):$/;"	kind:class	line:475
+Oradea	../aimacode/search.py	/^    Oradea=(131, 571), Pitesti=(320, 368), Rimnicu=(233, 410),$/;"	kind:variable	line:729
+Oradea	../aimacode/search.py	/^    Oradea=dict(Zerind=71, Sibiu=151),$/;"	kind:variable	line:720
+PDLL	../aimacode/planning.py	/^class PDLL:$/;"	kind:class	line:8
+PROBLEMS	../run_search.py	/^PROBLEMS = [["Air Cargo Problem 1", air_cargo_p1],$/;"	kind:variable	line:26
+Page	../aimacode/nlp.py	/^class Page(object):$/;"	kind:class	line:360
+Parity	../aimacode/learning.py	/^def Parity(k, n, name="parity"):$/;"	kind:function	line:947
+PartialExpr	../aimacode/utils.py	/^class PartialExpr:$/;"	kind:class	line:466
+PassiveADPAgent	../aimacode/rl.py	/^class PassiveADPAgent:$/;"	kind:class	line:11
+PassiveTDAgent	../aimacode/rl.py	/^class PassiveTDAgent:$/;"	kind:class	line:69
+PerceptronLearner	../aimacode/learning.py	/^def PerceptronLearner(dataset, learning_rate=0.01, epoches=100):$/;"	kind:function	line:598
+PermutationDecoder	../aimacode/text.py	/^class PermutationDecoder:$/;"	kind:class	line:320
+PermutationDecoderProblem	../aimacode/text.py	/^class PermutationDecoderProblem(search.Problem):$/;"	kind:class	line:358
+PgNode	../my_planning_graph.py	/^class PgNode():$/;"	kind:class	line:7
+PgNode_a	../my_planning_graph.py	/^class PgNode_a(PgNode):$/;"	kind:class	line:103
+PgNode_s	../my_planning_graph.py	/^class PgNode_s(PgNode):$/;"	kind:class	line:44
+Pit	../aimacode/agents.py	/^class Pit(Thing):$/;"	kind:class	line:645
+Pitesti	../aimacode/search.py	/^    Pitesti=dict(Rimnicu=97),$/;"	kind:variable	line:721
+PlanningGraph	../my_planning_graph.py	/^class PlanningGraph():$/;"	kind:class	line:201
+PluralityLearner	../aimacode/learning.py	/^def PluralityLearner(dataset):$/;"	kind:function	line:237
+PolygonObstacle	../aimacode/agents.py	/^class PolygonObstacle(Obstacle):$/;"	kind:class	line:539
+PrintableProblem	../run_search.py	/^class PrintableProblem(InstrumentedProblem):$/;"	kind:class	line:42
+PriorityQueue	../aimacode/utils.py	/^class PriorityQueue(Queue):$/;"	kind:class	line:573
+ProbDist	../aimacode/probability.py	/^class ProbDist:$/;"	kind:class	line:31
+Problem	../aimacode/search.py	/^class Problem(object):$/;"	kind:class	line:25
+PropDefiniteKB	../aimacode/logic.py	/^class PropDefiniteKB(PropKB):$/;"	kind:class	line:473
+PropKB	../aimacode/logic.py	/^class PropKB(KB):$/;"	kind:class	line:79
+QLearningAgent	../aimacode/rl.py	/^class QLearningAgent:$/;"	kind:class	line:113
+Queue	../aimacode/utils.py	/^class Queue:$/;"	kind:class	line:516
+R	../aimacode/agents.py	/^    R = "right"$/;"	kind:variable	line:334
+R	../aimacode/mdp.py	/^    def R(self, state):$/;"	kind:member	line:35
+R3	../aimacode/csp.py	/^    R3 = _R3$/;"	kind:variable	line:556
+RBFS	../aimacode/search.py	/^    def RBFS(problem, node, flimit):$/;"	kind:function	line:326
+RandomAgentProgram	../aimacode/agents.py	/^def RandomAgentProgram(actions):$/;"	kind:function	line:131
+RandomGraph	../aimacode/search.py	/^def RandomGraph(nodes=list(range(10)), min_links=2, width=400, height=300,$/;"	kind:function	line:679
+RandomVacuumAgent	../aimacode/agents.py	/^def RandomVacuumAgent():$/;"	kind:function	line:170
+ReflexVacuumAgent	../aimacode/agents.py	/^def ReflexVacuumAgent():$/;"	kind:function	line:191
+RestaurantDataSet	../aimacode/learning.py	/^def RestaurantDataSet(examples=None):$/;"	kind:function	line:885
+Rimnicu	../aimacode/search.py	/^    Rimnicu=dict(Sibiu=80),$/;"	kind:variable	line:722
+Rules	../aimacode/nlp.py	/^def Rules(**rules):$/;"	kind:function	line:14
+SA	../aimacode/search.py	/^    SA=dict(WA=1, NT=1, Q=1, NSW=1, V=1),$/;"	kind:variable	line:781
+SAT_plan	../aimacode/logic.py	/^def SAT_plan(init, transition, goal, t_max, SAT_solver=dpll_satisfiable):$/;"	kind:function	line:689
+SEARCHES	../run_search.py	/^SEARCHES = [["breadth_first_search", breadth_first_search, ""],$/;"	kind:variable	line:29
+Scream	../aimacode/agents.py	/^class Scream(Thing):$/;"	kind:class	line:655
+ShiftDecoder	../aimacode/text.py	/^class ShiftDecoder:$/;"	kind:class	line:285
+Sibiu	../aimacode/search.py	/^    Sibiu=(207, 457), Timisoara=(94, 410), Urziceni=(456, 350),$/;"	kind:variable	line:730
+SimpleProblemSolvingAgentProgram	../aimacode/search.py	/^class SimpleProblemSolvingAgentProgram:$/;"	kind:class	line:142
+SimpleReflexAgentProgram	../aimacode/agents.py	/^def SimpleReflexAgentProgram(rules, interpret_input):$/;"	kind:function	line:138
+Stack	../aimacode/utils.py	/^def Stack():$/;"	kind:function	line:539
+State_1	../aimacode/search.py	/^    State_1 = dict(Suck = ['State_7', 'State_5'], Right = ['State_2']),$/;"	kind:variable	line:747
+State_1	../aimacode/search.py	/^    State_1=8,$/;"	kind:variable	line:769
+State_1	../aimacode/search.py	/^    State_1=dict(Right='State_2'),$/;"	kind:variable	line:761
+State_2	../aimacode/search.py	/^    State_2 = dict(Suck = ['State_8', 'State_4'], Left = ['State_2']),$/;"	kind:variable	line:748
+State_2	../aimacode/search.py	/^    State_2=9,$/;"	kind:variable	line:770
+State_2	../aimacode/search.py	/^    State_2=dict(Right='State_3', Left='State_1'),$/;"	kind:variable	line:762
+State_3	../aimacode/search.py	/^    State_3 = dict(Suck = ['State_7'], Right = ['State_4']),$/;"	kind:variable	line:749
+State_3	../aimacode/search.py	/^    State_3=2,$/;"	kind:variable	line:771
+State_3	../aimacode/search.py	/^    State_3=dict(Right='State_4', Left='State_2'),$/;"	kind:variable	line:763
+State_4	../aimacode/search.py	/^    State_4 = dict(Suck = ['State_4', 'State_2'], Left = ['State_3']),$/;"	kind:variable	line:750
+State_4	../aimacode/search.py	/^    State_4=2,$/;"	kind:variable	line:772
+State_4	../aimacode/search.py	/^    State_4=dict(Right='State_5', Left='State_3'),$/;"	kind:variable	line:764
+State_5	../aimacode/search.py	/^    State_5 = dict(Suck = ['State_5', 'State_1'], Right = ['State_6']),$/;"	kind:variable	line:751
+State_5	../aimacode/search.py	/^    State_5=4,$/;"	kind:variable	line:773
+State_5	../aimacode/search.py	/^    State_5=dict(Right='State_6', Left='State_4'),$/;"	kind:variable	line:765
+State_6	../aimacode/search.py	/^    State_6 = dict(Suck = ['State_8'], Left = ['State_5']),$/;"	kind:variable	line:752
+State_6	../aimacode/search.py	/^    State_6=3)$/;"	kind:variable	line:774
+State_6	../aimacode/search.py	/^    State_6=dict(Left='State_5')$/;"	kind:variable	line:766
+State_7	../aimacode/search.py	/^    State_7 = dict(Suck = ['State_7', 'State_3'], Right = ['State_8']),$/;"	kind:variable	line:753
+State_8	../aimacode/search.py	/^    State_8 = dict(Suck = ['State_8', 'State_6'], Left = ['State_7'])$/;"	kind:variable	line:754
+Stench	../aimacode/agents.py	/^class Stench(Thing):$/;"	kind:class	line:663
+Sudoku	../aimacode/csp.py	/^class Sudoku(CSP):$/;"	kind:class	line:520
+Symbol	../aimacode/utils.py	/^def Symbol(name):$/;"	kind:function	line:438
+SyntheticRestaurant	../aimacode/learning.py	/^def SyntheticRestaurant(n=20):$/;"	kind:function	line:924
+T	../aimacode/learning.py	/^def T(attrname, branches):$/;"	kind:function	line:894
+T	../aimacode/mdp.py	/^    def T(self, state, action):$/;"	kind:member	line:39
+T	../aimacode/mdp.py	/^    def T(self, state, action):$/;"	kind:member	line:74
+T	../aimacode/rl.py	/^        def T(self, s, a):$/;"	kind:member	line:25
+T	../aimacode/search.py	/^    T=dict(),$/;"	kind:variable	line:780
+T	../aimacode/utils.py	/^T = Bool(True)$/;"	kind:variable	line:618
+TableDrivenAgentProgram	../aimacode/agents.py	/^def TableDrivenAgentProgram(table):$/;"	kind:function	line:117
+TableDrivenVacuumAgent	../aimacode/agents.py	/^def TableDrivenVacuumAgent():$/;"	kind:function	line:175
+TestAirCargoMethods	../tests/test_my_air_cargo_problems.py	/^class TestAirCargoMethods(unittest.TestCase):$/;"	kind:class	line:50
+TestAirCargoProb1	../tests/test_my_air_cargo_problems.py	/^class TestAirCargoProb1(unittest.TestCase):$/;"	kind:class	line:14
+TestAirCargoProb2	../tests/test_my_air_cargo_problems.py	/^class TestAirCargoProb2(unittest.TestCase):$/;"	kind:class	line:26
+TestAirCargoProb3	../tests/test_my_air_cargo_problems.py	/^class TestAirCargoProb3(unittest.TestCase):$/;"	kind:class	line:38
+TestPlanningGraphHeuristics	../tests/test_my_planning_graph.py	/^class TestPlanningGraphHeuristics(unittest.TestCase):$/;"	kind:class	line:118
+TestPlanningGraphLevels	../tests/test_my_planning_graph.py	/^class TestPlanningGraphLevels(unittest.TestCase):$/;"	kind:class	line:15
+TestPlanningGraphMutex	../tests/test_my_planning_graph.py	/^class TestPlanningGraphMutex(unittest.TestCase):$/;"	kind:class	line:36
+Thing	../aimacode/agents.py	/^class Thing(object):$/;"	kind:class	line:48
+TicTacToe	../aimacode/games.py	/^class TicTacToe(Game):$/;"	kind:class	line:238
+TraceAgent	../aimacode/agents.py	/^def TraceAgent(agent):$/;"	kind:function	line:102
+TrivialVacuumEnvironment	../aimacode/agents.py	/^class TrivialVacuumEnvironment(Environment):$/;"	kind:class	line:590
+U	../aimacode/agents.py	/^    U = "up"$/;"	kind:variable	line:336
+UndirectedGraph	../aimacode/search.py	/^def UndirectedGraph(dict=None):$/;"	kind:function	line:674
+UnigramTextModel	../aimacode/text.py	/^class UnigramTextModel(CountingProbDist):$/;"	kind:class	line:18
+UniversalDict	../aimacode/csp.py	/^class UniversalDict:$/;"	kind:class	line:334
+UnixConsultant	../aimacode/text.py	/^class UnixConsultant(IRSystem):$/;"	kind:class	line:178
+Urziceni	../aimacode/search.py	/^    Urziceni=dict(Vaslui=142)))$/;"	kind:variable	line:723
+VacuumEnvironment	../aimacode/agents.py	/^class VacuumEnvironment(XYEnvironment):$/;"	kind:class	line:553
+Vaslui	../aimacode/search.py	/^    Vaslui=(509, 444), Zerind=(108, 531))$/;"	kind:variable	line:731
+WalkSAT	../aimacode/logic.py	/^def WalkSAT(clauses, p=0.5, max_flips=10000):$/;"	kind:function	line:643
+Wall	../aimacode/agents.py	/^class Wall(Obstacle):$/;"	kind:class	line:520
+WeightedLearner	../aimacode/learning.py	/^def WeightedLearner(unweighted_learner):$/;"	kind:function	line:726
+WeightedMajority	../aimacode/learning.py	/^def WeightedMajority(predictors, weights):$/;"	kind:function	line:705
+Wordlist	../aimacode/search.py	/^class Wordlist:$/;"	kind:class	line:968
+Wumpus	../aimacode/agents.py	/^class Wumpus(Agent):$/;"	kind:class	line:659
+WumpusEnvironment	../aimacode/agents.py	/^class WumpusEnvironment(XYEnvironment):$/;"	kind:class	line:678
+XYEnvironment	../aimacode/agents.py	/^class XYEnvironment(Environment):$/;"	kind:class	line:376
+Xor	../aimacode/learning.py	/^def Xor(n):$/;"	kind:function	line:958
+Zebra	../aimacode/csp.py	/^def Zebra():$/;"	kind:function	line:589
+_BGRID	../aimacode/csp.py	/^_BGRID = [[[[_CELL() for x in _R3] for y in _R3] for bx in _R3] for by in _R3]$/;"	kind:variable	line:509
+_BOXES	../aimacode/csp.py	/^_BOXES = flatten([list(map(flatten, brow)) for brow in _BGRID])$/;"	kind:variable	line:510
+_CELL	../aimacode/csp.py	/^_CELL = itertools.count().__next__$/;"	kind:variable	line:508
+_COLS	../aimacode/csp.py	/^_COLS = list(zip(*_ROWS))$/;"	kind:variable	line:512
+_JS_CONTINUOUS_WORLD	../aimacode/ipyviews.py	/^    _JS_CONTINUOUS_WORLD = js_file.read()$/;"	kind:variable	line:26
+_JS_GRID_WORLD	../aimacode/ipyviews.py	/^    _JS_GRID_WORLD = js_file.read()$/;"	kind:variable	line:85
+_NEIGHBORS	../aimacode/csp.py	/^_NEIGHBORS = {v: set() for v in flatten(_ROWS)}$/;"	kind:variable	line:514
+_R3	../aimacode/csp.py	/^_R3 = list(range(3))$/;"	kind:variable	line:507
+_ROWS	../aimacode/csp.py	/^_ROWS = flatten([list(map(flatten, zip(*brow))) for brow in _BGRID])$/;"	kind:variable	line:511
+__add__	../aimacode/agents.py	/^    def __add__(self, heading):$/;"	kind:member	line:342
+__add__	../aimacode/utils.py	/^    def __add__(self, rhs): return Expr('+', self, rhs)$/;"	kind:member	line:368
+__and__	../aimacode/utils.py	/^    def __and__(self, rhs): return Expr('&', self, rhs)$/;"	kind:member	line:373
+__call__	../aimacode/learning.py	/^    def __call__(self, example):$/;"	kind:member	line:303
+__call__	../aimacode/learning.py	/^    def __call__(self, example):$/;"	kind:member	line:331
+__call__	../aimacode/nlp.py	/^    def __call__(self):$/;"	kind:member	line:323
+__call__	../aimacode/planning.py	/^    def __call__(self, kb, args):$/;"	kind:member	line:59
+__call__	../aimacode/rl.py	/^    def __call__(self, percept):$/;"	kind:member	line:153
+__call__	../aimacode/rl.py	/^    def __call__(self, percept):$/;"	kind:member	line:40
+__call__	../aimacode/rl.py	/^    def __call__(self, percept):$/;"	kind:member	line:92
+__call__	../aimacode/search.py	/^    def __call__(self, percept):$/;"	kind:member	line:150
+__call__	../aimacode/search.py	/^    def __call__(self, percept):$/;"	kind:member	line:441
+__call__	../aimacode/search.py	/^    def __call__(self, s1):     # as of now s1 is a state rather than a percept$/;"	kind:member	line:529
+__call__	../aimacode/utils.py	/^    def __call__(self, *args):$/;"	kind:member	line:404
+__contains__	../aimacode/search.py	/^    def __contains__(self, word):$/;"	kind:member	line:998
+__contains__	../aimacode/utils.py	/^    def __contains__(self, item):$/;"	kind:member	line:569
+__contains__	../aimacode/utils.py	/^    def __contains__(self, item):$/;"	kind:member	line:597
+__delitem__	../aimacode/utils.py	/^    def __delitem__(self, key):$/;"	kind:member	line:605
+__eq__	../aimacode/agents.py	/^    def __eq__(self, rhs):$/;"	kind:member	line:634
+__eq__	../aimacode/search.py	/^    def __eq__(self, other):$/;"	kind:member	line:133
+__eq__	../aimacode/utils.py	/^    def __eq__(self, other):$/;"	kind:member	line:412
+__eq__	../my_planning_graph.py	/^    def __eq__(self, other):$/;"	kind:member	line:173
+__eq__	../my_planning_graph.py	/^    def __eq__(self, other):$/;"	kind:member	line:89
+__floordiv__	../aimacode/utils.py	/^    def __floordiv__(self, rhs): return Expr('\/\/', self, rhs)$/;"	kind:member	line:378
+__getattr__	../aimacode/search.py	/^    def __getattr__(self, attr):$/;"	kind:member	line:1131
+__getitem__	../aimacode/csp.py	/^    def __getitem__(self, key): return self.value$/;"	kind:member	line:345
+__getitem__	../aimacode/learning.py	/^    def __getitem__(self, item):$/;"	kind:member	line:216
+__getitem__	../aimacode/probability.py	/^    def __getitem__(self, val):$/;"	kind:member	line:53
+__getitem__	../aimacode/probability.py	/^    def __getitem__(self, values):$/;"	kind:member	line:100
+__getitem__	../aimacode/utils.py	/^    def __getitem__(self, key):$/;"	kind:member	line:600
+__hash__	../aimacode/search.py	/^    def __hash__(self):$/;"	kind:member	line:136
+__hash__	../aimacode/utils.py	/^    def __hash__(self): return hash(self.op) ^ hash(self.args)$/;"	kind:member	line:418
+__hash__	../my_planning_graph.py	/^    def __hash__(self):$/;"	kind:member	line:183
+__hash__	../my_planning_graph.py	/^    def __hash__(self):$/;"	kind:member	line:99
+__init__	../aimacode/agents.py	/^    def __init__(self):$/;"	kind:member	line:237
+__init__	../aimacode/agents.py	/^    def __init__(self):$/;"	kind:member	line:597
+__init__	../aimacode/agents.py	/^    def __init__(self, agent_program, width=6, height=6):$/;"	kind:member	line:682
+__init__	../aimacode/agents.py	/^    def __init__(self, coordinates):$/;"	kind:member	line:540
+__init__	../aimacode/agents.py	/^    def __init__(self, direction):$/;"	kind:member	line:339
+__init__	../aimacode/agents.py	/^    def __init__(self, program=None):$/;"	kind:member	line:85
+__init__	../aimacode/agents.py	/^    def __init__(self, width=10, height=10):$/;"	kind:member	line:386
+__init__	../aimacode/agents.py	/^    def __init__(self, width=10, height=10):$/;"	kind:member	line:530
+__init__	../aimacode/agents.py	/^    def __init__(self, width=10, height=10):$/;"	kind:member	line:560
+__init__	../aimacode/canvas.py	/^    def __init__(self, varname, id=None, width=800, height=600):$/;"	kind:member	line:19
+__init__	../aimacode/csp.py	/^    def __init__(self, grid):$/;"	kind:member	line:564
+__init__	../aimacode/csp.py	/^    def __init__(self, n):$/;"	kind:member	line:436
+__init__	../aimacode/csp.py	/^    def __init__(self, value): self.value = value$/;"	kind:member	line:343
+__init__	../aimacode/csp.py	/^    def __init__(self, variables, domains, neighbors, constraints):$/;"	kind:member	line:51
+__init__	../aimacode/games.py	/^    def __init__(self, h=3, v=3, k=3):$/;"	kind:member	line:244
+__init__	../aimacode/games.py	/^    def __init__(self, h=7, v=6, k=4):$/;"	kind:member	line:313
+__init__	../aimacode/games.py	/^    def __init__(self, varname, player_1='human', player_2='random', id=None, width=300, height=300):$/;"	kind:member	line:325
+__init__	../aimacode/ipyviews.py	/^    def __init__(self, world, block_size=30, default_fill="white"):$/;"	kind:member	line:95
+__init__	../aimacode/ipyviews.py	/^    def __init__(self, world, fill="#AAA"):$/;"	kind:member	line:32
+__init__	../aimacode/learning.py	/^    def __init__(self, attr, attrname=None, branches=None):$/;"	kind:member	line:297
+__init__	../aimacode/learning.py	/^    def __init__(self, examples=None, attrs=None, attrnames=None, target=-1,$/;"	kind:member	line:69
+__init__	../aimacode/learning.py	/^    def __init__(self, observations=[], default=0):$/;"	kind:member	line:189
+__init__	../aimacode/learning.py	/^    def __init__(self, result):$/;"	kind:member	line:328
+__init__	../aimacode/learning.py	/^    def __init__(self, weights=None, inputs=None):$/;"	kind:member	line:493
+__init__	../aimacode/logic.py	/^    def __init__(self):$/;"	kind:member	line:679
+__init__	../aimacode/logic.py	/^    def __init__(self, initial_clauses=[]):$/;"	kind:member	line:888
+__init__	../aimacode/logic.py	/^    def __init__(self, sentence=None):$/;"	kind:member	line:59
+__init__	../aimacode/logic.py	/^    def __init__(self, sentence=None):$/;"	kind:member	line:83
+__init__	../aimacode/mdp.py	/^    def __init__(self, grid, terminals, init=(0, 0), gamma=.9):$/;"	kind:member	line:61
+__init__	../aimacode/mdp.py	/^    def __init__(self, init, actlist, terminals, gamma=.9):$/;"	kind:member	line:25
+__init__	../aimacode/nlp.py	/^    def __init__(self):$/;"	kind:member	line:319
+__init__	../aimacode/nlp.py	/^    def __init__(self, address, hub=0, authority=0, inlinks=None, outlinks=None):$/;"	kind:member	line:361
+__init__	../aimacode/nlp.py	/^    def __init__(self, grammar, trace=False):$/;"	kind:member	line:127
+__init__	../aimacode/nlp.py	/^    def __init__(self, name, rules, lexicon):$/;"	kind:member	line:36
+__init__	../aimacode/planning.py	/^    def __init__(self, action, precond, effect):$/;"	kind:member	line:51
+__init__	../aimacode/planning.py	/^    def __init__(self, initial_state, actions, goal_test):$/;"	kind:member	line:15
+__init__	../aimacode/probability.py	/^    def __init__(self, X, parents, cpt):$/;"	kind:member	line:210
+__init__	../aimacode/probability.py	/^    def __init__(self, node_specs=[]):$/;"	kind:member	line:170
+__init__	../aimacode/probability.py	/^    def __init__(self, transition_model, sensor_model, prior=[0.5, 0.5]):$/;"	kind:member	line:532
+__init__	../aimacode/probability.py	/^    def __init__(self, variables):$/;"	kind:member	line:95
+__init__	../aimacode/probability.py	/^    def __init__(self, variables, cpt):$/;"	kind:member	line:372
+__init__	../aimacode/probability.py	/^    def __init__(self, varname='?', freqs=None):$/;"	kind:member	line:42
+__init__	../aimacode/rl.py	/^        def __init__(self, init, actlist, terminals, gamma, states):$/;"	kind:member	line:19
+__init__	../aimacode/rl.py	/^    def __init__(self, mdp, Ne, Rplus, alpha=None):$/;"	kind:member	line:118
+__init__	../aimacode/rl.py	/^    def __init__(self, pi, mdp):$/;"	kind:member	line:30
+__init__	../aimacode/rl.py	/^    def __init__(self, pi, mdp, alpha=None):$/;"	kind:member	line:76
+__init__	../aimacode/search.py	/^    def __init__(self, N):$/;"	kind:member	line:847
+__init__	../aimacode/search.py	/^    def __init__(self, board=None):$/;"	kind:member	line:1013
+__init__	../aimacode/search.py	/^    def __init__(self, dict=None, directed=True):$/;"	kind:member	line:636
+__init__	../aimacode/search.py	/^    def __init__(self, file, min_len=3):$/;"	kind:member	line:974
+__init__	../aimacode/search.py	/^    def __init__(self, genes):$/;"	kind:member	line:602
+__init__	../aimacode/search.py	/^    def __init__(self, initial, goal, graph):$/;"	kind:member	line:481
+__init__	../aimacode/search.py	/^    def __init__(self, initial, goal, graph):$/;"	kind:member	line:793
+__init__	../aimacode/search.py	/^    def __init__(self, initial, goal=None):$/;"	kind:member	line:32
+__init__	../aimacode/search.py	/^    def __init__(self, initial_state=None):$/;"	kind:member	line:146
+__init__	../aimacode/search.py	/^    def __init__(self, problem):$/;"	kind:member	line:1105
+__init__	../aimacode/search.py	/^    def __init__(self, problem):$/;"	kind:member	line:433
+__init__	../aimacode/search.py	/^    def __init__(self, problem):$/;"	kind:member	line:522
+__init__	../aimacode/search.py	/^    def __init__(self, state, parent=None, action=None, path_cost=0):$/;"	kind:member	line:88
+__init__	../aimacode/text.py	/^    def __init__(self):$/;"	kind:member	line:182
+__init__	../aimacode/text.py	/^    def __init__(self, initial=None, goal=None, decoder=None):$/;"	kind:member	line:360
+__init__	../aimacode/text.py	/^    def __init__(self, n, observation_sequence=[], default=0):$/;"	kind:member	line:35
+__init__	../aimacode/text.py	/^    def __init__(self, stopwords='the a of'):$/;"	kind:member	line:117
+__init__	../aimacode/text.py	/^    def __init__(self, title, url, nwords):$/;"	kind:member	line:196
+__init__	../aimacode/text.py	/^    def __init__(self, training_text):$/;"	kind:member	line:291
+__init__	../aimacode/text.py	/^    def __init__(self, training_text, ciphertext=None):$/;"	kind:member	line:336
+__init__	../aimacode/utils.py	/^    def __init__(self):$/;"	kind:member	line:531
+__init__	../aimacode/utils.py	/^    def __init__(self):$/;"	kind:member	line:548
+__init__	../aimacode/utils.py	/^    def __init__(self, op, *args):$/;"	kind:member	line:360
+__init__	../aimacode/utils.py	/^    def __init__(self, op, lhs): self.op, self.lhs = op, lhs$/;"	kind:member	line:468
+__init__	../aimacode/utils.py	/^    def __init__(self, order=min, f=lambda x: x):$/;"	kind:member	line:580
+__init__	../example_have_cake.py	/^    def __init__(self, initial: FluentState, goal: list):$/;"	kind:member	line:17
+__init__	../lp_utils.py	/^    def __init__(self, pos_list, neg_list):$/;"	kind:member	line:10
+__init__	../my_air_cargo_problems.py	/^    def __init__(self, cargos, planes, airports, initial: FluentState, goal: list):$/;"	kind:member	line:14
+__init__	../my_planning_graph.py	/^    def __init__(self):$/;"	kind:member	line:16
+__init__	../my_planning_graph.py	/^    def __init__(self, action: Action):$/;"	kind:member	line:107
+__init__	../my_planning_graph.py	/^    def __init__(self, problem: Problem, state: str, serial_planning=True):$/;"	kind:member	line:207
+__init__	../my_planning_graph.py	/^    def __init__(self, symbol: str, is_pos: bool):$/;"	kind:member	line:60
+__init__.py	../aimacode/__init__.py	1;"	kind:file	line:1
+__init__.py	../aimacode/tests/__init__.py	1;"	kind:file	line:1
+__init__.py	../tests/__init__.py	1;"	kind:file	line:1
+__invert__	../aimacode/utils.py	/^    def __invert__(self):   return Expr('~', self)$/;"	kind:member	line:367
+__len__	../aimacode/search.py	/^    def __len__(self):$/;"	kind:member	line:1001
+__len__	../aimacode/search.py	/^    def __len__(self):$/;"	kind:member	line:1061
+__len__	../aimacode/utils.py	/^    def __len__(self):$/;"	kind:member	line:555
+__len__	../aimacode/utils.py	/^    def __len__(self):$/;"	kind:member	line:588
+__lshift__	../aimacode/utils.py	/^    def __lshift__(self, rhs):   return Expr('<<', self, rhs)$/;"	kind:member	line:376
+__lt__	../aimacode/search.py	/^    def __lt__(self, node):$/;"	kind:member	line:101
+__matmul__	../aimacode/utils.py	/^    def __matmul__(self, rhs):   return Expr('@',  self, rhs)$/;"	kind:member	line:379
+__missing__	../aimacode/utils.py	/^    def __missing__(self, key):$/;"	kind:member	line:504
+__mod__	../aimacode/utils.py	/^    def __mod__(self, rhs): return Expr('%', self, rhs)$/;"	kind:member	line:372
+__mul__	../aimacode/utils.py	/^    def __mul__(self, rhs): return Expr('*', self, rhs)$/;"	kind:member	line:370
+__neg__	../aimacode/utils.py	/^    def __neg__(self):      return Expr('-', self)$/;"	kind:member	line:365
+__or__	../aimacode/utils.py	/^    def __or__(self, rhs):       return Expr(self.op, self.lhs, rhs)$/;"	kind:member	line:469
+__or__	../aimacode/utils.py	/^    def __or__(self, rhs):$/;"	kind:member	line:381
+__pos__	../aimacode/utils.py	/^    def __pos__(self):      return Expr('+', self)$/;"	kind:member	line:366
+__pow__	../aimacode/utils.py	/^    def __pow__(self, rhs): return Expr('**',self, rhs)$/;"	kind:member	line:371
+__radd__	../aimacode/utils.py	/^    def __radd__(self, lhs): return Expr('+',  lhs, self)$/;"	kind:member	line:389
+__rand__	../aimacode/utils.py	/^    def __rand__(self, lhs): return Expr('&',  lhs, self)$/;"	kind:member	line:395
+__rdiv__	../aimacode/utils.py	/^    def __rdiv__(self, lhs): return Expr('\/',  lhs, self)$/;"	kind:member	line:392
+__repr__	../aimacode/agents.py	/^    def __repr__(self):$/;"	kind:member	line:54
+__repr__	../aimacode/csp.py	/^    def __repr__(self): return '{Any: %r}' % self.value$/;"	kind:member	line:347
+__repr__	../aimacode/games.py	/^    def __repr__(self):$/;"	kind:member	line:205
+__repr__	../aimacode/learning.py	/^    def __repr__(self):$/;"	kind:member	line:159
+__repr__	../aimacode/learning.py	/^    def __repr__(self):$/;"	kind:member	line:319
+__repr__	../aimacode/learning.py	/^    def __repr__(self):$/;"	kind:member	line:337
+__repr__	../aimacode/nlp.py	/^    def __repr__(self):$/;"	kind:member	line:54
+__repr__	../aimacode/probability.py	/^    def __repr__(self):$/;"	kind:member	line:119
+__repr__	../aimacode/probability.py	/^    def __repr__(self):$/;"	kind:member	line:201
+__repr__	../aimacode/probability.py	/^    def __repr__(self):$/;"	kind:member	line:275
+__repr__	../aimacode/probability.py	/^    def __repr__(self):$/;"	kind:member	line:82
+__repr__	../aimacode/search.py	/^    def __repr__(self):$/;"	kind:member	line:1134
+__repr__	../aimacode/search.py	/^    def __repr__(self):$/;"	kind:member	line:98
+__repr__	../aimacode/utils.py	/^    def __repr__(self):          return "PartialExpr('{}', {})".format(self.op, self.lhs)$/;"	kind:member	line:470
+__repr__	../aimacode/utils.py	/^    def __repr__(self):$/;"	kind:member	line:420
+__repr__	../run_search.py	/^    def __repr__(self):$/;"	kind:member	line:48
+__rfloordiv__	../aimacode/utils.py	/^    def __rfloordiv__(self, lhs): return Expr('\/\/',  lhs, self)$/;"	kind:member	line:401
+__rlshift__	../aimacode/utils.py	/^    def __rlshift__(self, lhs):   return Expr('<<',  lhs, self)$/;"	kind:member	line:399
+__rmatmul__	../aimacode/utils.py	/^    def __rmatmul__(self, lhs):   return Expr('@', lhs, self)$/;"	kind:member	line:402
+__rmod__	../aimacode/utils.py	/^    def __rmod__(self, lhs): return Expr('%',  lhs, self)$/;"	kind:member	line:394
+__rmul__	../aimacode/utils.py	/^    def __rmul__(self, lhs): return Expr('*',  lhs, self)$/;"	kind:member	line:391
+__ror__	../aimacode/utils.py	/^    def __ror__(self, lhs):  return Expr('|',  lhs, self)$/;"	kind:member	line:397
+__rpow__	../aimacode/utils.py	/^    def __rpow__(self, lhs): return Expr('**', lhs, self)$/;"	kind:member	line:393
+__rrshift__	../aimacode/utils.py	/^    def __rrshift__(self, lhs):   return Expr('>>',  lhs, self)$/;"	kind:member	line:398
+__rshift__	../aimacode/utils.py	/^    def __rshift__(self, rhs):   return Expr('>>', self, rhs)$/;"	kind:member	line:375
+__rsub__	../aimacode/utils.py	/^    def __rsub__(self, lhs): return Expr('-',  lhs, self)$/;"	kind:member	line:390
+__rtruediv__	../aimacode/utils.py	/^    def __rtruediv__(self, lhs):  return Expr('\/',  lhs, self)$/;"	kind:member	line:400
+__rxor__	../aimacode/utils.py	/^    def __rxor__(self, lhs): return Expr('^',  lhs, self)$/;"	kind:member	line:396
+__setitem__	../aimacode/probability.py	/^    def __setitem__(self, val, p):$/;"	kind:member	line:60
+__setitem__	../aimacode/probability.py	/^    def __setitem__(self, values, p):$/;"	kind:member	line:105
+__sub__	../aimacode/utils.py	/^    def __sub__(self, rhs): return Expr('-', self, rhs)$/;"	kind:member	line:369
+__truediv__	../aimacode/utils.py	/^    def __truediv__(self, rhs):  return Expr('\/',  self, rhs)$/;"	kind:member	line:377
+__xor__	../aimacode/utils.py	/^    def __xor__(self, rhs): return Expr('^', self, rhs)$/;"	kind:member	line:374
+_mat_mult	../aimacode/utils.py	/^    def _mat_mult(X_M, Y_M):$/;"	kind:function	line:125
+_op_identity	../aimacode/logic.py	/^_op_identity = {'&': True, '|': False, '+': 0, '*': 1}$/;"	kind:variable	line:399
+abut	../aimacode/csp.py	/^        def abut(lines1, lines2): return list($/;"	kind:function	line:580
+act	../aimacode/planning.py	/^    def act(self, action):$/;"	kind:member	line:23
+act	../aimacode/planning.py	/^    def act(self, kb, args):$/;"	kind:member	line:83
+actions	../aimacode/csp.py	/^    def actions(self, state):$/;"	kind:member	line:90
+actions	../aimacode/games.py	/^    def actions(self, state):$/;"	kind:member	line:181
+actions	../aimacode/games.py	/^    def actions(self, state):$/;"	kind:member	line:219
+actions	../aimacode/games.py	/^    def actions(self, state):$/;"	kind:member	line:252
+actions	../aimacode/games.py	/^    def actions(self, state):$/;"	kind:member	line:316
+actions	../aimacode/mdp.py	/^    def actions(self, state):$/;"	kind:member	line:44
+actions	../aimacode/search.py	/^    def actions(self, A):$/;"	kind:member	line:797
+actions	../aimacode/search.py	/^    def actions(self, state):$/;"	kind:member	line:1110
+actions	../aimacode/search.py	/^    def actions(self, state):$/;"	kind:member	line:39
+actions	../aimacode/search.py	/^    def actions(self, state):$/;"	kind:member	line:486
+actions	../aimacode/search.py	/^    def actions(self, state):$/;"	kind:member	line:851
+actions	../aimacode/text.py	/^    def actions(self, state):$/;"	kind:member	line:364
+actions	../example_have_cake.py	/^    def actions(self, state: str) -> list:  # of Action$/;"	kind:member	line:39
+actions	../my_air_cargo_problems.py	/^    def actions(self, state: str) -> list:$/;"	kind:member	line:120
+actions_in_state	../aimacode/rl.py	/^    def actions_in_state(self, state):$/;"	kind:member	line:145
+add	../aimacode/learning.py	/^    def add(self, o):$/;"	kind:member	line:201
+add	../aimacode/learning.py	/^    def add(self, val, subtree):$/;"	kind:member	line:308
+add	../aimacode/probability.py	/^    def add(self, node_spec):$/;"	kind:member	line:177
+add	../aimacode/text.py	/^    def add(self, ngram):$/;"	kind:member	line:46
+add_action_level	../my_planning_graph.py	/^    def add_action_level(self, level):$/;"	kind:member	line:302
+add_edge	../aimacode/nlp.py	/^    def add_edge(self, edge):$/;"	kind:member	line:155
+add_example	../aimacode/learning.py	/^    def add_example(self, example):$/;"	kind:member	line:132
+add_literal_level	../my_planning_graph.py	/^    def add_literal_level(self, level):$/;"	kind:member	line:327
+add_observer	../aimacode/agents.py	/^    def add_observer(self, observer):$/;"	kind:member	line:499
+add_obstacle	../aimacode/agents.py	/^    def add_obstacle(self, coordinates):$/;"	kind:member	line:535
+add_sequence	../aimacode/text.py	/^    def add_sequence(self, words):$/;"	kind:member	line:53
+add_thing	../aimacode/agents.py	/^    def add_thing(self, thing, location=(1, 1), exclude_duplicate_class_items=False):$/;"	kind:member	line:451
+add_thing	../aimacode/agents.py	/^    def add_thing(self, thing, location=None):$/;"	kind:member	line:300
+add_walls	../aimacode/agents.py	/^    def add_walls(self):$/;"	kind:member	line:486
+agents.py	../aimacode/agents.py	1;"	kind:file	line:1
+air_cargo	../aimacode/planning.py	/^def air_cargo():$/;"	kind:function	line:96
+air_cargo_p1	../my_air_cargo_problems.py	/^def air_cargo_p1() -> AirCargoProblem:$/;"	kind:function	line:210
+air_cargo_p2	../my_air_cargo_problems.py	/^def air_cargo_p2() -> AirCargoProblem:$/;"	kind:function	line:235
+air_cargo_p3	../my_air_cargo_problems.py	/^def air_cargo_p3() -> AirCargoProblem:$/;"	kind:function	line:240
+alert	../aimacode/canvas.py	/^    def alert(self, message):$/;"	kind:member	line:114
+all_events	../aimacode/probability.py	/^def all_events(variables, bn, e):$/;"	kind:function	line:402
+all_same_class	../aimacode/learning.py	/^    def all_same_class(examples):$/;"	kind:function	line:375
+all_shifts	../aimacode/text.py	/^def all_shifts(text):$/;"	kind:function	line:312
+alphabet	../aimacode/text.py	/^alphabet = 'abcdefghijklmnopqrstuvwxyz'$/;"	kind:variable	line:226
+alphabeta_full_search	../aimacode/games.py	/^def alphabeta_full_search(state, game):$/;"	kind:function	line:45
+alphabeta_player	../aimacode/games.py	/^def alphabeta_player(game, state):$/;"	kind:function	line:152
+alphabeta_search	../aimacode/games.py	/^def alphabeta_search(state, game, d=4, cutoff_test=None, eval_fn=None):$/;"	kind:function	line:86
+and_or_graph_search	../aimacode/search.py	/^def and_or_graph_search(problem):$/;"	kind:function	line:391
+and_search	../aimacode/search.py	/^    def and_search(states, problem, path):$/;"	kind:function	line:413
+append	../aimacode/utils.py	/^    def append(self, item):$/;"	kind:member	line:552
+append	../aimacode/utils.py	/^    def append(self, item):$/;"	kind:member	line:585
+arc	../aimacode/canvas.py	/^    def arc(self, x, y, r, start, stop):$/;"	kind:member	line:80
+arc_n	../aimacode/canvas.py	/^    def arc_n(self, xn ,yn, rn, start, stop):$/;"	kind:member	line:84
+argmax	../aimacode/utils.py	/^argmax = max$/;"	kind:variable	line:68
+argmax_random_tie	../aimacode/utils.py	/^def argmax_random_tie(seq, key=identity):$/;"	kind:function	line:76
+argmin	../aimacode/utils.py	/^argmin = min$/;"	kind:variable	line:67
+argmin_random_tie	../aimacode/utils.py	/^def argmin_random_tie(seq, key=identity):$/;"	kind:function	line:71
+arity	../aimacode/utils.py	/^def arity(expression):$/;"	kind:function	line:456
+ask	../aimacode/logic.py	/^    def ask(self, query):$/;"	kind:member	line:66
+ask_generator	../aimacode/logic.py	/^    def ask_generator(self, query):$/;"	kind:member	line:482
+ask_generator	../aimacode/logic.py	/^    def ask_generator(self, query):$/;"	kind:member	line:70
+ask_generator	../aimacode/logic.py	/^    def ask_generator(self, query):$/;"	kind:member	line:899
+ask_generator	../aimacode/logic.py	/^    def ask_generator(self, query):$/;"	kind:member	line:92
+ask_if_true	../aimacode/logic.py	/^    def ask_if_true(self, query):$/;"	kind:member	line:97
+assign	../aimacode/csp.py	/^    def assign(self, var, val, assignment):$/;"	kind:member	line:455
+assign	../aimacode/csp.py	/^    def assign(self, var, val, assignment):$/;"	kind:member	line:63
+associate	../aimacode/logic.py	/^def associate(op, args):$/;"	kind:function	line:382
+astar_search	../aimacode/search.py	/^def astar_search(problem, h=None):$/;"	kind:function	line:311
+attrnum	../aimacode/learning.py	/^    def attrnum(self, attr):$/;"	kind:member	line:145
+australia	../aimacode/csp.py	/^australia = MapColoringCSP(list('RGB'),$/;"	kind:variable	line:383
+australia_map	../aimacode/search.py	/^australia_map = UndirectedGraph(dict($/;"	kind:variable	line:779
+backtrack	../aimacode/csp.py	/^    def backtrack(assignment):$/;"	kind:function	line:257
+backtracking_search	../aimacode/csp.py	/^def backtracking_search(csp,$/;"	kind:function	line:250
+backward	../aimacode/probability.py	/^def backward(HMM, b, ev):$/;"	kind:function	line:552
+best_first_graph_search	../aimacode/search.py	/^def best_first_graph_search(problem, f):$/;"	kind:function	line:240
+best_policy	../aimacode/mdp.py	/^def best_policy(mdp, U):$/;"	kind:function	line:127
+bgrid	../aimacode/csp.py	/^    bgrid = _BGRID$/;"	kind:variable	line:558
+bigrams	../aimacode/text.py	/^def bigrams(text):$/;"	kind:function	line:273
+boggle_hill_climbing	../aimacode/search.py	/^def boggle_hill_climbing(board=None, ntimes=100, verbose=True):$/;"	kind:function	line:1068
+boggle_neighbors	../aimacode/search.py	/^def boggle_neighbors(n2, cache={}):$/;"	kind:function	line:926
+boxes	../aimacode/csp.py	/^    boxes = _BOXES$/;"	kind:variable	line:559
+boyan_best	../aimacode/search.py	/^boyan_best = list('RSTCSDEIAEGNLRPEATESMSSID')$/;"	kind:variable	line:908
+breadth_first_search	../aimacode/search.py	/^def breadth_first_search(problem):$/;"	kind:function	line:221
+breadth_first_tree_search	../aimacode/search.py	/^def breadth_first_tree_search(problem):$/;"	kind:function	line:206
+burglary	../aimacode/probability.py	/^burglary = BayesNet([$/;"	kind:variable	line:282
+c	../aimacode/search.py	/^    def c(self, s, a, s1):$/;"	kind:member	line:498
+can_grab	../aimacode/agents.py	/^    def can_grab(self, thing):$/;"	kind:member	line:673
+can_grab	../aimacode/agents.py	/^    def can_grab(self, thing):$/;"	kind:member	line:96
+canonicalize	../aimacode/text.py	/^def canonicalize(text):$/;"	kind:function	line:211
+canvas.py	../aimacode/canvas.py	1;"	kind:file	line:1
+check_SAT	../aimacode/tests/test_logic.py	/^    def check_SAT(clauses, single_solution={}):$/;"	kind:function	line:195
+check_example	../aimacode/learning.py	/^    def check_example(self, example):$/;"	kind:member	line:137
+check_me	../aimacode/learning.py	/^    def check_me(self):$/;"	kind:member	line:122
+check_precond	../aimacode/planning.py	/^    def check_precond(self, kb, args):$/;"	kind:member	line:71
+child_node	../aimacode/search.py	/^    def child_node(self, problem, action):$/;"	kind:member	line:109
+choices	../aimacode/csp.py	/^    def choices(self, var):$/;"	kind:member	line:134
+choose_attribute	../aimacode/learning.py	/^    def choose_attribute(attrs, examples):$/;"	kind:function	line:380
+class_probability	../aimacode/learning.py	/^        def class_probability(targetval):$/;"	kind:function	line:269
+clauses_with_premise	../aimacode/logic.py	/^    def clauses_with_premise(self, p):$/;"	kind:member	line:490
+clear	../aimacode/canvas.py	/^    def clear(self):$/;"	kind:member	line:93
+clip	../aimacode/utils.py	/^def clip(x, lowest, highest):$/;"	kind:function	line:243
+collect	../aimacode/logic.py	/^    def collect(subargs):$/;"	kind:function	line:407
+cols	../aimacode/csp.py	/^    cols = _COLS$/;"	kind:variable	line:561
+compare	../aimacode/learning.py	/^def compare(algorithms=[PluralityLearner, NaiveBayesLearner,$/;"	kind:function	line:974
+compare_agents	../aimacode/agents.py	/^def compare_agents(EnvFactory, AgentFactories, n=10, steps=1000):$/;"	kind:function	line:837
+compare_graph_searchers	../aimacode/search.py	/^def compare_graph_searchers():$/;"	kind:function	line:1154
+compare_list	../aimacode/tests/test_grid.py	/^def compare_list(x, y):$/;"	kind:function	line:5
+compare_searchers	../aimacode/search.py	/^def compare_searchers(problems, header,$/;"	kind:function	line:1139
+competing_needs_mutex	../my_planning_graph.py	/^    def competing_needs_mutex(self, node_a1: PgNode_a, node_a2: PgNode_a) -> bool:$/;"	kind:member	line:425
+compute_utility	../aimacode/games.py	/^    def compute_utility(self, board, move, player):$/;"	kind:member	line:282
+conflict	../aimacode/csp.py	/^        def conflict(var2):$/;"	kind:function	line:78
+conflict	../aimacode/search.py	/^    def conflict(self, row1, col1, row2, col2):$/;"	kind:member	line:872
+conflicted	../aimacode/search.py	/^    def conflicted(self, state, row, col):$/;"	kind:member	line:867
+conflicted_vars	../aimacode/csp.py	/^    def conflicted_vars(self, current):$/;"	kind:member	line:151
+conjunctive_sentence	../lp_utils.py	/^def conjunctive_sentence(pos_list, neg_list):$/;"	kind:function	line:21
+conjuncts	../aimacode/logic.py	/^def conjuncts(s):$/;"	kind:function	line:417
+connect	../aimacode/search.py	/^    def connect(self, A, B, distance=1):$/;"	kind:member	line:648
+connect1	../aimacode/search.py	/^    def connect1(self, A, B, distance):$/;"	kind:member	line:655
+consistent_with	../aimacode/probability.py	/^def consistent_with(event, evidence):$/;"	kind:function	line:455
+convergence	../aimacode/nlp.py	/^convergence = ConvergenceDetector() # assign function to variable to mimic pseudocode's syntax$/;"	kind:variable	line:370
+count	../aimacode/learning.py	/^    def count(attr, val, examples):$/;"	kind:function	line:371
+count	../aimacode/utils.py	/^def count(seq):$/;"	kind:function	line:35
+create_graph	../my_planning_graph.py	/^    def create_graph(self):$/;"	kind:member	line:256
+crime_kb	../aimacode/logic.py	/^crime_kb = FolKB($/;"	kind:variable	line:924
+cross_validation	../aimacode/learning.py	/^def cross_validation(learner, size, dataset, k=10, trials=1):$/;"	kind:function	line:792
+cross_validation_wrapper	../aimacode/learning.py	/^def cross_validation_wrapper(learner, dataset, k=10, trials=1):$/;"	kind:function	line:826
+csp.py	../aimacode/csp.py	1;"	kind:file	line:1
+cubes16	../aimacode/search.py	/^cubes16 = ['FORIXB', 'MOQABJ', 'GURILW', 'SETUPL',$/;"	kind:variable	line:892
+d	../aimacode/logic.py	/^def d(y, x):$/;"	kind:function	line:1064
+decision_list_learning	../aimacode/learning.py	/^    def decision_list_learning(examples):$/;"	kind:function	line:416
+decision_tree_learning	../aimacode/learning.py	/^    def decision_tree_learning(examples, attrs, parent_examples=()):$/;"	kind:function	line:348
+decode	../aimacode/text.py	/^    def decode(self, ciphertext):$/;"	kind:member	line:304
+decode	../aimacode/text.py	/^    def decode(self, ciphertext):$/;"	kind:member	line:341
+decode_state	../lp_utils.py	/^def decode_state(state: str, fluent_map: list) -> FluentState:$/;"	kind:function	line:53
+default_location	../aimacode/agents.py	/^    def default_location(self, thing):$/;"	kind:member	line:255
+default_location	../aimacode/agents.py	/^    def default_location(self, thing):$/;"	kind:member	line:427
+default_location	../aimacode/agents.py	/^    def default_location(self, thing):$/;"	kind:member	line:624
+defaultkeydict	../aimacode/utils.py	/^class defaultkeydict(collections.defaultdict):$/;"	kind:class	line:499
+delete_thing	../aimacode/agents.py	/^    def delete_thing(self, thing):$/;"	kind:member	line:313
+delete_thing	../aimacode/agents.py	/^    def delete_thing(self, thing):$/;"	kind:member	line:474
+depth_first_graph_search	../aimacode/search.py	/^def depth_first_graph_search(problem):$/;"	kind:function	line:216
+depth_first_tree_search	../aimacode/search.py	/^def depth_first_tree_search(problem):$/;"	kind:function	line:211
+depth_limited_search	../aimacode/search.py	/^def depth_limited_search(problem, limit=50):$/;"	kind:function	line:276
+detect	../aimacode/nlp.py	/^    def detect(self):$/;"	kind:member	line:326
+determineInlinks	../aimacode/nlp.py	/^def determineInlinks( page ):$/;"	kind:function	line:252
+diff	../aimacode/logic.py	/^def diff(y, x):$/;"	kind:function	line:968
+different_values_constraint	../aimacode/csp.py	/^def different_values_constraint(A, a, B, b):$/;"	kind:function	line:350
+direction	../aimacode/agents.py	/^    direction = Direction("right")$/;"	kind:variable	line:671
+disjuncts	../aimacode/logic.py	/^def disjuncts(s):$/;"	kind:function	line:427
+display	../aimacode/agents.py	/^    def display(self, canvas, x, y, width, height):$/;"	kind:member	line:65
+display	../aimacode/csp.py	/^    def display(self, assignment):$/;"	kind:member	line:477
+display	../aimacode/csp.py	/^    def display(self, assignment):$/;"	kind:member	line:575
+display	../aimacode/csp.py	/^    def display(self, assignment):$/;"	kind:member	line:83
+display	../aimacode/games.py	/^    def display(self, state):$/;"	kind:member	line:201
+display	../aimacode/games.py	/^    def display(self, state):$/;"	kind:member	line:275
+display	../aimacode/learning.py	/^    def display(self, indent=0):$/;"	kind:member	line:312
+display	../aimacode/learning.py	/^    def display(self, indent=0):$/;"	kind:member	line:334
+dissociate	../aimacode/logic.py	/^def dissociate(op, args):$/;"	kind:function	line:402
+distance	../aimacode/grid.py	/^def distance(a, b):$/;"	kind:function	line:24
+distance2	../aimacode/grid.py	/^def distance2(a, b):$/;"	kind:function	line:29
+distance_to_node	../aimacode/search.py	/^                def distance_to_node(n):$/;"	kind:function	line:698
+distribute_and_over_or	../aimacode/logic.py	/^def distribute_and_over_or(s):$/;"	kind:function	line:354
+do	../aimacode/search.py	/^    def do(searcher, problem):$/;"	kind:function	line:1146
+dotproduct	../aimacode/utils.py	/^def dotproduct(X, Y):$/;"	kind:function	line:111
+dpll	../aimacode/logic.py	/^def dpll(clauses, symbols, model):$/;"	kind:function	line:548
+dpll_satisfiable	../aimacode/logic.py	/^def dpll_satisfiable(s):$/;"	kind:function	line:537
+draw_board	../aimacode/games.py	/^    def draw_board(self):$/;"	kind:member	line:357
+draw_o	../aimacode/games.py	/^    def draw_o(self, position):$/;"	kind:member	line:390
+draw_x	../aimacode/games.py	/^    def draw_x(self, position):$/;"	kind:member	line:383
+easy1	../aimacode/csp.py	/^easy1 = '..3.2.6..9..3.5..1..18.64....81.29..7.......8..67.82....26.95..8..2.3..9..5.1.3..'  # noqa$/;"	kind:variable	line:504
+effect_s_nodes	../my_planning_graph.py	/^    def effect_s_nodes(self):$/;"	kind:member	line:157
+element_wise_product	../aimacode/utils.py	/^def element_wise_product(X, Y):$/;"	kind:function	line:116
+eliminate_implications	../aimacode/logic.py	/^def eliminate_implications(s):$/;"	kind:function	line:307
+elimination_ask	../aimacode/probability.py	/^def elimination_ask(X, e, bn):$/;"	kind:function	line:325
+encode	../aimacode/text.py	/^def encode(plaintext, code):$/;"	kind:function	line:266
+encode_state	../lp_utils.py	/^def encode_state(fs: FluentState, fluent_map: list) -> str:$/;"	kind:function	line:37
+enumerate_all	../aimacode/probability.py	/^def enumerate_all(variables, e, bn):$/;"	kind:function	line:307
+enumerate_joint	../aimacode/probability.py	/^def enumerate_joint(variables, e, P):$/;"	kind:function	line:154
+enumerate_joint_ask	../aimacode/probability.py	/^def enumerate_joint_ask(X, e, P):$/;"	kind:function	line:138
+enumeration_ask	../aimacode/probability.py	/^def enumeration_ask(X, e, bn):$/;"	kind:function	line:294
+event_values	../aimacode/probability.py	/^def event_values(event, variables):$/;"	kind:function	line:123
+exact_sqrt	../aimacode/search.py	/^def exact_sqrt(n2):$/;"	kind:function	line:959
+examplePagesSet	../aimacode/nlp.py	/^examplePagesSet = ["https:\/\/en.wikipedia.org\/wiki\/", "Aesthetics", "Analytic_philosophy",$/;"	kind:variable	line:217
+example_have_cake.py	../example_have_cake.py	1;"	kind:file	line:1
+execute	../aimacode/canvas.py	/^    def execute(self, exec_str):$/;"	kind:member	line:36
+execute_action	../aimacode/agents.py	/^    def execute_action(self, agent, action):$/;"	kind:member	line:251
+execute_action	../aimacode/agents.py	/^    def execute_action(self, agent, action):$/;"	kind:member	line:410
+execute_action	../aimacode/agents.py	/^    def execute_action(self, agent, action):$/;"	kind:member	line:576
+execute_action	../aimacode/agents.py	/^    def execute_action(self, agent, action):$/;"	kind:member	line:610
+execute_action	../aimacode/agents.py	/^    def execute_action(self, agent, action):$/;"	kind:member	line:767
+exogenous_change	../aimacode/agents.py	/^    def exogenous_change(self):$/;"	kind:member	line:259
+exp_schedule	../aimacode/search.py	/^def exp_schedule(k=20, lam=0.005, limit=100):$/;"	kind:function	line:370
+expand	../aimacode/search.py	/^    def expand(self, problem):$/;"	kind:member	line:104
+expand_pages	../aimacode/nlp.py	/^def expand_pages( pages ):$/;"	kind:function	line:280
+expected_utility	../aimacode/mdp.py	/^def expected_utility(a, s, U, mdp):$/;"	kind:function	line:136
+expr	../aimacode/utils.py	/^def expr(x):$/;"	kind:function	line:473
+expr_handle_infix_ops	../aimacode/utils.py	/^def expr_handle_infix_ops(x):$/;"	kind:function	line:489
+extend	../aimacode/logic.py	/^def extend(s, var, val):$/;"	kind:function	line:825
+extend	../aimacode/utils.py	/^    def extend(self, items):$/;"	kind:member	line:534
+extend	../aimacode/utils.py	/^    def extend(self, items):$/;"	kind:member	line:558
+extender	../aimacode/nlp.py	/^    def extender(self, edge):$/;"	kind:member	line:181
+extract_solution	../aimacode/logic.py	/^    def extract_solution(model):$/;"	kind:function	line:749
+f	../aimacode/rl.py	/^    def f(self, u, n):$/;"	kind:member	line:136
+f52	../aimacode/tests/test_games.py	/^f52 = Fig52Game()$/;"	kind:variable	line:11
+fetch_rules_for_goal	../aimacode/logic.py	/^    def fetch_rules_for_goal(self, goal):$/;"	kind:member	line:905
+fill	../aimacode/canvas.py	/^    def fill(self, r, g, b):$/;"	kind:member	line:44
+find	../aimacode/search.py	/^    def find(self, lo, hi, i, visited, prefix):$/;"	kind:member	line:1032
+findOutlinks	../aimacode/nlp.py	/^def findOutlinks( page, handleURLs=None ):$/;"	kind:function	line:263
+find_examples	../aimacode/learning.py	/^    def find_examples(examples):$/;"	kind:function	line:424
+find_pure_symbol	../aimacode/logic.py	/^def find_pure_symbol(symbols, clauses):$/;"	kind:function	line:572
+find_unit_clause	../aimacode/logic.py	/^def find_unit_clause(clauses, model):$/;"	kind:function	line:590
+first	../aimacode/utils.py	/^def first(iterable, default=None):$/;"	kind:function	line:48
+first_unassigned_variable	../aimacode/csp.py	/^def first_unassigned_variable(assignment, csp):$/;"	kind:function	line:192
+fixed_lag_smoothing	../aimacode/probability.py	/^def fixed_lag_smoothing(e_t, HMM, d, ev, t):$/;"	kind:function	line:588
+flatten	../aimacode/csp.py	/^def flatten(seqs): return sum(seqs, [])$/;"	kind:function	line:502
+flatten	../aimacode/learning.py	/^def flatten(seqs): return sum(seqs, [])$/;"	kind:function	line:756
+fly_actions	../my_air_cargo_problems.py	/^        def fly_actions():$/;"	kind:function	line:97
+fol_bc_and	../aimacode/logic.py	/^def fol_bc_and(KB, goals, theta):$/;"	kind:function	line:950
+fol_bc_ask	../aimacode/logic.py	/^def fol_bc_ask(KB, query):$/;"	kind:function	line:937
+fol_bc_or	../aimacode/logic.py	/^def fol_bc_or(KB, goal, theta):$/;"	kind:function	line:943
+fol_fc_ask	../aimacode/logic.py	/^def fol_fc_ask(KB, alpha):$/;"	kind:function	line:849
+font	../aimacode/canvas.py	/^    def font(self, font):$/;"	kind:member	line:97
+formulate_goal	../aimacode/search.py	/^    def formulate_goal(self, state):$/;"	kind:member	line:163
+formulate_problem	../aimacode/search.py	/^    def formulate_problem(self, state, goal):$/;"	kind:member	line:166
+forward	../aimacode/probability.py	/^def forward(HMM, fv, ev):$/;"	kind:function	line:544
+forward_backward	../aimacode/probability.py	/^def forward_backward(HMM, ev, prior):$/;"	kind:function	line:560
+forward_checking	../aimacode/csp.py	/^def forward_checking(csp, var, value, assignment, removals):$/;"	kind:function	line:231
+france	../aimacode/csp.py	/^france = MapColoringCSP(list('RGBY'),$/;"	kind:variable	line:397
+games.py	../aimacode/games.py	1;"	kind:file	line:1
+gen	../aimacode/learning.py	/^    def gen():$/;"	kind:function	line:926
+gen_state	../aimacode/tests/test_games.py	/^def gen_state(to_move='X', x_positions=[], o_positions=[], h=3, v=3, k=3):$/;"	kind:function	line:15
+generate_random	../aimacode/nlp.py	/^def generate_random(grammar=E_, s='S'):$/;"	kind:function	line:98
+genetic_algorithm	../aimacode/search.py	/^def genetic_algorithm(population, fitness_fn, ngen=1000, pmut=0.1):$/;"	kind:function	line:583
+genetic_search	../aimacode/search.py	/^def genetic_search(problem, fitness_fn, ngen=1000, pmut=0.1, n=20):$/;"	kind:function	line:572
+get	../aimacode/search.py	/^    def get(self, a, b=None):$/;"	kind:member	line:659
+getInlinks	../aimacode/nlp.py	/^def getInlinks( page ):$/;"	kind:function	line:346
+getOutlinks	../aimacode/nlp.py	/^def getOutlinks( page ):$/;"	kind:function	line:351
+get_actions	../example_have_cake.py	/^    def get_actions(self):$/;"	kind:member	line:22
+get_actions	../my_air_cargo_problems.py	/^    def get_actions(self):$/;"	kind:member	line:36
+get_goal	../example_have_cake.py	/^    def get_goal():$/;"	kind:function	line:107
+get_init	../example_have_cake.py	/^    def get_init():$/;"	kind:function	line:100
+get_polygon_obstacles_coordinates	../aimacode/ipyviews.py	/^    def get_polygon_obstacles_coordinates(self):$/;"	kind:member	line:55
+get_world	../aimacode/agents.py	/^    def get_world(self, show_walls=True):$/;"	kind:member	line:717
+gibbs_ask	../aimacode/probability.py	/^def gibbs_ask(X, e, bn, N):$/;"	kind:function	line:495
+go	../aimacode/mdp.py	/^    def go(self, state, direction):$/;"	kind:member	line:82
+goal_test	../aimacode/csp.py	/^    def goal_test(self, state):$/;"	kind:member	line:106
+goal_test	../aimacode/planning.py	/^    def goal_test(kb):$/;"	kind:function	line:108
+goal_test	../aimacode/planning.py	/^    def goal_test(kb):$/;"	kind:function	line:147
+goal_test	../aimacode/planning.py	/^    def goal_test(kb):$/;"	kind:function	line:189
+goal_test	../aimacode/planning.py	/^    def goal_test(kb):$/;"	kind:function	line:216
+goal_test	../aimacode/planning.py	/^    def goal_test(self):$/;"	kind:member	line:20
+goal_test	../aimacode/search.py	/^    def goal_test(self, state):$/;"	kind:member	line:1118
+goal_test	../aimacode/search.py	/^    def goal_test(self, state):$/;"	kind:member	line:507
+goal_test	../aimacode/search.py	/^    def goal_test(self, state):$/;"	kind:member	line:52
+goal_test	../aimacode/search.py	/^    def goal_test(self, state):$/;"	kind:member	line:879
+goal_test	../aimacode/text.py	/^    def goal_test(self, state):$/;"	kind:member	line:370
+goal_test	../example_have_cake.py	/^    def goal_test(self, state: str) -> bool:$/;"	kind:member	line:72
+goal_test	../my_air_cargo_problems.py	/^    def goal_test(self, state: str) -> bool:$/;"	kind:member	line:168
+graph_search	../aimacode/search.py	/^def graph_search(problem, frontier):$/;"	kind:function	line:189
+greedy_best_first_graph_search	../aimacode/search.py	/^greedy_best_first_graph_search = best_first_graph_search$/;"	kind:variable	line:307
+grid.py	../aimacode/grid.py	1;"	kind:file	line:1
+h	../aimacode/search.py	/^    def h(self, node):$/;"	kind:member	line:808
+h	../aimacode/search.py	/^    def h(self, state):$/;"	kind:member	line:492
+h_1	../example_have_cake.py	/^    def h_1(self, node: Node):$/;"	kind:member	line:80
+h_1	../my_air_cargo_problems.py	/^    def h_1(self, node: Node):$/;"	kind:member	line:181
+h_ignore_preconditions	../example_have_cake.py	/^    def h_ignore_preconditions(self, node: Node):$/;"	kind:member	line:93
+h_ignore_preconditions	../my_air_cargo_problems.py	/^    def h_ignore_preconditions(self, node: Node):$/;"	kind:member	line:198
+h_levelsum	../my_planning_graph.py	/^    def h_levelsum(self) -> int:$/;"	kind:member	line:493
+h_pg_levelsum	../example_have_cake.py	/^    def h_pg_levelsum(self, node: Node):$/;"	kind:member	line:85
+h_pg_levelsum	../my_air_cargo_problems.py	/^    def h_pg_levelsum(self, node: Node):$/;"	kind:member	line:186
+handle_add_obstacle	../aimacode/ipyviews.py	/^    def handle_add_obstacle(self, vertices):$/;"	kind:member	line:45
+handle_click	../aimacode/ipyviews.py	/^    def handle_click(self, coordinates):$/;"	kind:member	line:128
+handle_remove_obstacle	../aimacode/ipyviews.py	/^    def handle_remove_obstacle(self):$/;"	kind:member	line:52
+harder1	../aimacode/csp.py	/^harder1 = '4173698.5.3..........7......2.....6.....8.4......1.......6.3.7.5..2.....1.4......'  # noqa$/;"	kind:variable	line:505
+has_arrow	../aimacode/agents.py	/^    has_arrow = True$/;"	kind:variable	line:669
+have_cake	../example_have_cake.py	/^def have_cake():$/;"	kind:function	line:99
+have_cake_and_eat_cake_too	../aimacode/planning.py	/^def have_cake_and_eat_cake_too():$/;"	kind:function	line:213
+hill_climbing	../aimacode/search.py	/^def hill_climbing(problem):$/;"	kind:function	line:354
+histogram	../aimacode/utils.py	/^def histogram(values, mode=0, bin_function=None):$/;"	kind:function	line:93
+holding	../aimacode/agents.py	/^    holding = []$/;"	kind:variable	line:668
+horn_clauses_KB	../aimacode/logic.py	/^horn_clauses_KB = PropDefiniteKB()$/;"	kind:variable	line:529
+identity	../aimacode/utils.py	/^identity = lambda x: x$/;"	kind:variable	line:65
+in_danger	../aimacode/agents.py	/^    def in_danger(self, agent):$/;"	kind:member	line:809
+inconsistent_effects_mutex	../my_planning_graph.py	/^    def inconsistent_effects_mutex(self, node_a1: PgNode_a, node_a2: PgNode_a) -> bool:$/;"	kind:member	line:391
+inconsistent_support_mutex	../my_planning_graph.py	/^    def inconsistent_support_mutex(self, node_s1: PgNode_s, node_s2: PgNode_s):$/;"	kind:member	line:474
+index_collection	../aimacode/text.py	/^    def index_collection(self, filenames):$/;"	kind:member	line:125
+index_document	../aimacode/text.py	/^    def index_document(self, text, url):$/;"	kind:member	line:132
+infer_assignment	../aimacode/csp.py	/^    def infer_assignment(self):$/;"	kind:member	line:138
+infinity	../aimacode/games.py	/^infinity = float('inf')$/;"	kind:variable	line:9
+infinity	../aimacode/search.py	/^infinity = float('inf')$/;"	kind:variable	line:20
+information_content	../aimacode/learning.py	/^def information_content(values):$/;"	kind:function	line:403
+information_gain	../aimacode/learning.py	/^    def information_gain(attr, examples):$/;"	kind:function	line:385
+initPages	../aimacode/nlp.py	/^def initPages( addressList ):$/;"	kind:function	line:239
+init_world	../aimacode/agents.py	/^    def init_world(self, program):$/;"	kind:member	line:686
+initial	../aimacode/games.py	/^    initial = 'A'$/;"	kind:variable	line:217
+inspect_literal	../aimacode/logic.py	/^def inspect_literal(literal):$/;"	kind:function	line:626
+interference_mutex	../my_planning_graph.py	/^    def interference_mutex(self, node_a1: PgNode_a, node_a2: PgNode_a) -> bool:$/;"	kind:member	line:408
+inverse_matrix	../aimacode/utils.py	/^def inverse_matrix(X):$/;"	kind:function	line:175
+ipyviews.py	../aimacode/ipyviews.py	1;"	kind:file	line:1
+iris	../aimacode/learning.py	/^iris = DataSet(name="iris", target="class",$/;"	kind:variable	line:878
+is_alive	../aimacode/agents.py	/^    def is_alive(self):$/;"	kind:member	line:57
+is_definite_clause	../aimacode/logic.py	/^def is_definite_clause(s):$/;"	kind:function	line:158
+is_done	../aimacode/agents.py	/^    def is_done(self):$/;"	kind:member	line:263
+is_done	../aimacode/agents.py	/^    def is_done(self):$/;"	kind:member	line:819
+is_hidden	../aimacode/probability.py	/^def is_hidden(var, X, e):$/;"	kind:function	line:339
+is_in	../aimacode/utils.py	/^def is_in(elt, seq):$/;"	kind:function	line:58
+is_inbounds	../aimacode/agents.py	/^    def is_inbounds(self, location):$/;"	kind:member	line:461
+is_mutex	../my_planning_graph.py	/^    def is_mutex(self, other) -> bool:$/;"	kind:member	line:21
+is_prop_symbol	../aimacode/logic.py	/^def is_prop_symbol(s):$/;"	kind:function	line:145
+is_symbol	../aimacode/logic.py	/^def is_symbol(s):$/;"	kind:function	line:135
+is_var_symbol	../aimacode/logic.py	/^def is_var_symbol(s):$/;"	kind:function	line:140
+is_variable	../aimacode/logic.py	/^def is_variable(x):$/;"	kind:function	line:795
+isa	../aimacode/nlp.py	/^    def isa(self, word, cat):$/;"	kind:member	line:50
+isclose	../aimacode/utils.py	/^    def isclose(a, b, rel_tol=1e-09, abs_tol=0.0):$/;"	kind:function	line:260
+isnumber	../aimacode/utils.py	/^def isnumber(x):$/;"	kind:function	line:301
+issequence	../aimacode/utils.py	/^def issequence(x):$/;"	kind:function	line:306
+iterative_deepening_search	../aimacode/search.py	/^def iterative_deepening_search(problem):$/;"	kind:function	line:297
+k_in_row	../aimacode/games.py	/^    def k_in_row(self, board, move, player, delta_x_y):$/;"	kind:member	line:292
+killed_by	../aimacode/agents.py	/^    killed_by = ""$/;"	kind:variable	line:670
+lcv	../aimacode/csp.py	/^def lcv(var, assignment, csp):$/;"	kind:function	line:219
+learning.py	../aimacode/learning.py	1;"	kind:file	line:1
+learningcurve	../aimacode/learning.py	/^def learningcurve(learner, dataset, trials=10, sizes=None):$/;"	kind:function	line:855
+leave_one_out	../aimacode/learning.py	/^def leave_one_out(learner, dataset):$/;"	kind:function	line:850
+likelihood_weighting	../aimacode/probability.py	/^def likelihood_weighting(X, e, bn, N):$/;"	kind:function	line:463
+line	../aimacode/canvas.py	/^    def line(self, x1, y1, x2, y2):$/;"	kind:member	line:68
+line_n	../aimacode/canvas.py	/^    def line_n(self, x1n, y1n, x2n, y2n):$/;"	kind:member	line:72
+list_things_at	../aimacode/agents.py	/^    def list_things_at(self, location, tclass=Thing):$/;"	kind:member	line:290
+loadPageHTML	../aimacode/nlp.py	/^def loadPageHTML( addressList ):$/;"	kind:function	line:228
+load_actions	../my_air_cargo_problems.py	/^        def load_actions():$/;"	kind:function	line:55
+logic.py	../aimacode/logic.py	1;"	kind:file	line:1
+lookup	../aimacode/search.py	/^    def lookup(self, prefix, lo=0, hi=None):$/;"	kind:member	line:984
+lp_utils.py	../lp_utils.py	1;"	kind:file	line:1
+mac	../aimacode/csp.py	/^def mac(csp, var, value, assignment, removals):$/;"	kind:function	line:243
+main	../run_search.py	/^def main(p_choices, s_choices):$/;"	kind:function	line:88
+make_action_query	../aimacode/logic.py	/^    def make_action_query(self, t):$/;"	kind:function	line:126
+make_action_sentence	../aimacode/logic.py	/^    def make_action_sentence(self, action, t):$/;"	kind:function	line:129
+make_arc_consistent	../aimacode/csp.py	/^def make_arc_consistent(Xj, Xk, csp):$/;"	kind:function	line:327
+make_factor	../aimacode/probability.py	/^def make_factor(var, e, bn):$/;"	kind:function	line:344
+make_percept_sentence	../aimacode/logic.py	/^    def make_percept_sentence(self, percept, t):$/;"	kind:function	line:123
+make_undirected	../aimacode/search.py	/^    def make_undirected(self):$/;"	kind:member	line:642
+maketrans	../aimacode/text.py	/^def maketrans(from_, to_):$/;"	kind:function	line:257
+manhattan_distance	../aimacode/learning.py	/^def manhattan_distance(predictions, targets):$/;"	kind:function	line:35
+manual	../run_search.py	/^def manual():$/;"	kind:function	line:67
+map_to_render	../aimacode/ipyviews.py	/^    def map_to_render(self):$/;"	kind:member	line:133
+markov_blanket_sample	../aimacode/probability.py	/^def markov_blanket_sample(X, e, bn):$/;"	kind:function	line:510
+mate	../aimacode/search.py	/^    def mate(self, other):$/;"	kind:member	line:605
+matrix_multiplication	../aimacode/utils.py	/^def matrix_multiplication(X_M, *Y_M):$/;"	kind:function	line:122
+max_value	../aimacode/games.py	/^    def max_value(state):$/;"	kind:function	line:22
+max_value	../aimacode/games.py	/^    def max_value(state, alpha, beta):$/;"	kind:function	line:52
+max_value	../aimacode/games.py	/^    def max_value(state, alpha, beta, depth):$/;"	kind:function	line:93
+mdp.py	../aimacode/mdp.py	1;"	kind:file	line:1
+mean_boolean_error	../aimacode/learning.py	/^def mean_boolean_error(predictions, targets):$/;"	kind:function	line:39
+mean_error	../aimacode/learning.py	/^def mean_error(predictions, targets):$/;"	kind:function	line:31
+memoize	../aimacode/utils.py	/^def memoize(fn, slot=None):$/;"	kind:function	line:271
+memoized_fn	../aimacode/utils.py	/^        def memoized_fn(*args):$/;"	kind:function	line:284
+memoized_fn	../aimacode/utils.py	/^        def memoized_fn(obj, *args):$/;"	kind:function	line:276
+min_conflicts	../aimacode/csp.py	/^def min_conflicts(csp, max_steps=100000):$/;"	kind:function	line:281
+min_conflicts_value	../aimacode/csp.py	/^def min_conflicts_value(csp, var, current):$/;"	kind:function	line:299
+min_value	../aimacode/games.py	/^    def min_value(state):$/;"	kind:function	line:30
+min_value	../aimacode/games.py	/^    def min_value(state, alpha, beta):$/;"	kind:function	line:63
+min_value	../aimacode/games.py	/^    def min_value(state, alpha, beta, depth):$/;"	kind:function	line:105
+minimax_decision	../aimacode/games.py	/^def minimax_decision(state, game):$/;"	kind:function	line:16
+mouse_click	../aimacode/canvas.py	/^    def mouse_click(self, x, y):$/;"	kind:member	line:29
+mouse_click	../aimacode/games.py	/^    def mouse_click(self, x, y):$/;"	kind:member	line:338
+mouse_move	../aimacode/canvas.py	/^    def mouse_move(self, x, y):$/;"	kind:member	line:33
+move_forward	../aimacode/agents.py	/^    def move_forward(self, from_location):$/;"	kind:member	line:364
+move_not_inwards	../aimacode/logic.py	/^def move_not_inwards(s):$/;"	kind:function	line:332
+move_to	../aimacode/agents.py	/^    def move_to(self, thing, destination):$/;"	kind:member	line:430
+mrv	../aimacode/csp.py	/^def mrv(assignment, csp):$/;"	kind:function	line:197
+ms_error	../aimacode/learning.py	/^def ms_error(predictions, targets):$/;"	kind:function	line:27
+mutate	../aimacode/search.py	/^    def mutate(self):$/;"	kind:member	line:610
+mutate_boggle	../aimacode/search.py	/^def mutate_boggle(board):$/;"	kind:function	line:1089
+mutexify	../my_planning_graph.py	/^def mutexify(node1: PgNode, node2: PgNode):$/;"	kind:function	line:187
+my_air_cargo_problems.py	../my_air_cargo_problems.py	1;"	kind:file	line:1
+my_planning_graph.py	../my_planning_graph.py	1;"	kind:file	line:1
+name	../aimacode/utils.py	/^def name(obj):$/;"	kind:function	line:294
+nconflicts	../aimacode/csp.py	/^    def nconflicts(self, var, val, assignment):$/;"	kind:member	line:445
+nconflicts	../aimacode/csp.py	/^    def nconflicts(self, var, val, assignment):$/;"	kind:member	line:75
+negation_mutex	../my_planning_graph.py	/^    def negation_mutex(self, node_s1: PgNode_s, node_s2: PgNode_s) -> bool:$/;"	kind:member	line:458
+neighbors	../aimacode/csp.py	/^    neighbors = _NEIGHBORS$/;"	kind:variable	line:562
+network	../aimacode/learning.py	/^def network(input_units, hidden_layer_sizes, output_units):$/;"	kind:function	line:500
+new_program	../aimacode/agents.py	/^    def new_program(percept):$/;"	kind:function	line:107
+nlp.py	../aimacode/nlp.py	1;"	kind:file	line:1
+no_inference	../aimacode/csp.py	/^def no_inference(csp, var, value, assignment, removals):$/;"	kind:function	line:227
+nodes	../aimacode/search.py	/^    def nodes(self):$/;"	kind:member	line:669
+noop_actions	../my_planning_graph.py	/^    def noop_actions(self, literal_list):$/;"	kind:member	line:227
+normalize	../aimacode/nlp.py	/^def normalize( pages ):$/;"	kind:function	line:305
+normalize	../aimacode/probability.py	/^    def normalize(self):$/;"	kind:member	line:391
+normalize	../aimacode/probability.py	/^    def normalize(self):$/;"	kind:member	line:66
+normalize	../aimacode/utils.py	/^def normalize(dist):$/;"	kind:function	line:231
+num_legal_values	../aimacode/csp.py	/^def num_legal_values(csp, var, assignment):$/;"	kind:function	line:204
+num_or_str	../aimacode/utils.py	/^def num_or_str(x):$/;"	kind:function	line:218
+object_name	../aimacode/ipyviews.py	/^    def object_name(self):$/;"	kind:member	line:102
+object_name	../aimacode/ipyviews.py	/^    def object_name(self):$/;"	kind:member	line:38
+occur_check	../aimacode/logic.py	/^def occur_check(var, x, s):$/;"	kind:function	line:809
+one_dim_state_space	../aimacode/search.py	/^one_dim_state_space = Graph(dict($/;"	kind:variable	line:760
+onlyWikipediaURLS	../aimacode/nlp.py	/^def onlyWikipediaURLS( urls ):$/;"	kind:function	line:270
+or_search	../aimacode/search.py	/^    def or_search(state, problem, path):$/;"	kind:function	line:402
+orientations	../aimacode/grid.py	/^orientations = [(1, 0), (0, 1), (-1, 0), (0, -1)]$/;"	kind:variable	line:9
+orings	../aimacode/learning.py	/^orings = DataSet(name='orings', target='Distressed',$/;"	kind:variable	line:868
+output	../aimacode/search.py	/^    def output(self, state, action):$/;"	kind:member	line:489
+p	../aimacode/probability.py	/^    def p(self, e):$/;"	kind:member	line:397
+p	../aimacode/probability.py	/^    def p(self, value, event):$/;"	kind:member	line:256
+p	../example_have_cake.py	/^    p = have_cake()$/;"	kind:variable	line:116
+pA	../aimacode/tests/test_nlp.py	/^pA = Page("A", 1, 6, ["B","C","E"],["D"])$/;"	kind:variable	line:30
+pB	../aimacode/tests/test_nlp.py	/^pB = Page("B", 2, 5, ["E"],["A","C","D"])$/;"	kind:variable	line:31
+pC	../aimacode/tests/test_nlp.py	/^pC = Page("C", 3, 4, ["B","E"],["A","D"])$/;"	kind:variable	line:32
+pD	../aimacode/tests/test_nlp.py	/^pD = Page("D", 4, 3, ["A","B","C","E"],[])$/;"	kind:variable	line:33
+pE	../aimacode/tests/test_nlp.py	/^pE = Page("E", 5, 2, [],["A","B","C","D","F"])$/;"	kind:variable	line:34
+pF	../aimacode/tests/test_nlp.py	/^pF = Page("F", 6, 1, ["E"],[])$/;"	kind:variable	line:35
+pageDict	../aimacode/tests/test_nlp.py	/^pageDict = {pA.address:pA,pB.address:pB,pC.address:pC,$/;"	kind:variable	line:36
+pagesContent	../aimacode/nlp.py	/^pagesContent = {} # maps Page relative or absolute URL\/location to page's HTML content$/;"	kind:variable	line:368
+pagesIndex	../aimacode/nlp.py	/^pagesIndex = {}$/;"	kind:variable	line:369
+parent	../tests/test_my_air_cargo_problems.py	/^parent = os.path.dirname(os.path.realpath(__file__))$/;"	kind:variable	line:3
+parent	../tests/test_my_planning_graph.py	/^parent = os.path.dirname(os.path.realpath(__file__))$/;"	kind:variable	line:4
+parse	../aimacode/nlp.py	/^    def parse(self, words, S='S'):$/;"	kind:member	line:146
+parse_csv	../aimacode/learning.py	/^def parse_csv(input, delim=','):$/;"	kind:function	line:166
+parse_definite_clause	../aimacode/logic.py	/^def parse_definite_clause(s):$/;"	kind:function	line:175
+parse_neighbors	../aimacode/csp.py	/^def parse_neighbors(neighbors, variables=[]):$/;"	kind:function	line:366
+parses	../aimacode/nlp.py	/^    def parses(self, words, S='S'):$/;"	kind:member	line:134
+particle_filtering	../aimacode/probability.py	/^def particle_filtering(e, N, HMM):$/;"	kind:function	line:619
+passes	../aimacode/learning.py	/^    def passes(example, test):$/;"	kind:function	line:429
+path	../aimacode/search.py	/^    def path(self):$/;"	kind:member	line:120
+path_cost	../aimacode/search.py	/^    def path_cost(self):$/;"	kind:member	line:829
+path_cost	../aimacode/search.py	/^    def path_cost(self, c, state1, action, state2):$/;"	kind:member	line:1125
+path_cost	../aimacode/search.py	/^    def path_cost(self, c, state1, action, state2):$/;"	kind:member	line:62
+path_cost	../aimacode/search.py	/^    def path_cost(self, cost_so_far, A, action, B):$/;"	kind:member	line:805
+percept	../aimacode/agents.py	/^    def percept(self, agent):$/;"	kind:member	line:244
+percept	../aimacode/agents.py	/^    def percept(self, agent):$/;"	kind:member	line:406
+percept	../aimacode/agents.py	/^    def percept(self, agent):$/;"	kind:member	line:568
+percept	../aimacode/agents.py	/^    def percept(self, agent):$/;"	kind:member	line:606
+percept	../aimacode/agents.py	/^    def percept(self, agent):$/;"	kind:member	line:748
+perceptible_distance	../aimacode/agents.py	/^    perceptible_distance = 1$/;"	kind:variable	line:396
+percepts_from	../aimacode/agents.py	/^    def percepts_from(self, agent, location, tclass=Thing):$/;"	kind:member	line:729
+pit_probability	../aimacode/agents.py	/^    pit_probability = 0.2 # Probability to spawn a pit in a location. (From Chapter 7.2)$/;"	kind:variable	line:679
+pl_fc_entails	../aimacode/logic.py	/^def pl_fc_entails(KB, q):$/;"	kind:function	line:497
+pl_resolution	../aimacode/logic.py	/^def pl_resolution(KB, alpha):$/;"	kind:function	line:439
+pl_resolve	../aimacode/logic.py	/^def pl_resolve(ci, cj):$/;"	kind:function	line:459
+pl_true	../aimacode/logic.py	/^def pl_true(exp, model={}):$/;"	kind:function	line:236
+plan_route	../aimacode/logic.py	/^def plan_route(current, goals, allowed):$/;"	kind:function	line:683
+planning.py	../aimacode/planning.py	1;"	kind:file	line:1
+play_game	../aimacode/games.py	/^def play_game(game, *players):$/;"	kind:function	line:156
+plurality_value	../aimacode/learning.py	/^    def plurality_value(examples):$/;"	kind:function	line:364
+pointwise_product	../aimacode/probability.py	/^    def pointwise_product(self, other, bn):$/;"	kind:member	line:376
+pointwise_product	../aimacode/probability.py	/^def pointwise_product(factors, bn):$/;"	kind:function	line:355
+policy_evaluation	../aimacode/mdp.py	/^def policy_evaluation(pi, U, mdp, k=20):$/;"	kind:function	line:159
+policy_iteration	../aimacode/mdp.py	/^def policy_iteration(mdp):$/;"	kind:function	line:143
+pop	../aimacode/utils.py	/^    def pop(self):$/;"	kind:member	line:561
+pop	../aimacode/utils.py	/^    def pop(self):$/;"	kind:member	line:591
+pos_sentence	../lp_utils.py	/^    def pos_sentence(self):$/;"	kind:member	line:17
+precond_s_nodes	../my_planning_graph.py	/^    def precond_s_nodes(self):$/;"	kind:member	line:141
+predict	../aimacode/learning.py	/^        def predict(example):$/;"	kind:function	line:673
+predict	../aimacode/learning.py	/^    def predict(example):$/;"	kind:function	line:242
+predict	../aimacode/learning.py	/^    def predict(example):$/;"	kind:function	line:266
+predict	../aimacode/learning.py	/^    def predict(example):$/;"	kind:function	line:282
+predict	../aimacode/learning.py	/^    def predict(example):$/;"	kind:function	line:433
+predict	../aimacode/learning.py	/^    def predict(example):$/;"	kind:function	line:462
+predict	../aimacode/learning.py	/^    def predict(example):$/;"	kind:function	line:606
+predict	../aimacode/learning.py	/^    def predict(example):$/;"	kind:function	line:660
+predict	../aimacode/learning.py	/^    def predict(example):$/;"	kind:function	line:707
+predictor	../aimacode/nlp.py	/^    def predictor(self, edge):$/;"	kind:member	line:173
+present	../aimacode/text.py	/^    def present(self, results):$/;"	kind:member	line:165
+present_results	../aimacode/text.py	/^    def present_results(self, query_text, n=10):$/;"	kind:member	line:173
+print_boggle	../aimacode/search.py	/^def print_boggle(board):$/;"	kind:function	line:911
+print_table	../aimacode/utils.py	/^def print_table(table, header=None, sep='   ', numfmt='%g'):$/;"	kind:function	line:311
+prior_sample	../aimacode/probability.py	/^def prior_sample(bn):$/;"	kind:function	line:426
+probability	../aimacode/utils.py	/^def probability(p):$/;"	kind:function	line:186
+probability.py	../aimacode/probability.py	1;"	kind:file	line:1
+product	../aimacode/utils.py	/^def product(numbers):$/;"	kind:function	line:40
+program	../aimacode/agents.py	/^            def program(percept):$/;"	kind:function	line:91
+program	../aimacode/agents.py	/^    def program(percept):$/;"	kind:function	line:124
+program	../aimacode/agents.py	/^    def program(percept):$/;"	kind:function	line:140
+program	../aimacode/agents.py	/^    def program(percept):$/;"	kind:function	line:150
+program	../aimacode/agents.py	/^    def program(percept):$/;"	kind:function	line:193
+program	../aimacode/agents.py	/^    def program(percept):$/;"	kind:function	line:208
+program	../aimacode/logic.py	/^    def program(percept):$/;"	kind:function	line:116
+program	../aimacode/probability.py	/^    def program(percept):$/;"	kind:function	line:20
+prop_symbols	../aimacode/logic.py	/^def prop_symbols(x):$/;"	kind:function	line:217
+prune	../aimacode/csp.py	/^    def prune(self, var, value, removals):$/;"	kind:member	line:128
+queen_constraint	../aimacode/csp.py	/^def queen_constraint(A, a, B, b):$/;"	kind:function	line:409
+query	../aimacode/text.py	/^    def query(self, query_text, n=10):$/;"	kind:member	line:143
+query_player	../aimacode/games.py	/^def query_player(game, state):$/;"	kind:function	line:137
+random_boggle	../aimacode/search.py	/^def random_boggle(n=4):$/;"	kind:function	line:898
+random_location_inbounds	../aimacode/agents.py	/^    def random_location_inbounds(self, exclude=None):$/;"	kind:member	line:466
+random_player	../aimacode/games.py	/^def random_player(game, state):$/;"	kind:function	line:147
+record_conflict	../aimacode/csp.py	/^    def record_conflict(self, assignment, var, val, delta):$/;"	kind:member	line:470
+rect	../aimacode/canvas.py	/^    def rect(self, x, y, w, h):$/;"	kind:member	line:56
+rect_n	../aimacode/canvas.py	/^    def rect_n(self, xn, yn, wn, hn):$/;"	kind:member	line:60
+recursive_best_first_search	../aimacode/search.py	/^def recursive_best_first_search(problem, h=None):$/;"	kind:function	line:322
+recursive_dls	../aimacode/search.py	/^    def recursive_dls(node, problem, limit):$/;"	kind:function	line:278
+rejection_sampling	../aimacode/probability.py	/^def rejection_sampling(X, e, bn, N):$/;"	kind:function	line:437
+relevant_pages	../aimacode/nlp.py	/^def relevant_pages(query):$/;"	kind:function	line:295
+removeall	../aimacode/utils.py	/^def removeall(item, seq):$/;"	kind:function	line:22
+replicated_dataset	../aimacode/learning.py	/^def replicated_dataset(dataset, weights, n=None):$/;"	kind:function	line:734
+restaurant	../aimacode/learning.py	/^restaurant = RestaurantDataSet()$/;"	kind:variable	line:891
+restore	../aimacode/csp.py	/^    def restore(self, removals):$/;"	kind:member	line:144
+result	../aimacode/csp.py	/^    def result(self, state, action):$/;"	kind:member	line:101
+result	../aimacode/games.py	/^    def result(self, state, move):$/;"	kind:member	line:185
+result	../aimacode/games.py	/^    def result(self, state, move):$/;"	kind:member	line:222
+result	../aimacode/games.py	/^    def result(self, state, move):$/;"	kind:member	line:256
+result	../aimacode/search.py	/^    def result(self, state, action):$/;"	kind:member	line:1114
+result	../aimacode/search.py	/^    def result(self, state, action):$/;"	kind:member	line:46
+result	../aimacode/search.py	/^    def result(self, state, action):$/;"	kind:member	line:801
+result	../aimacode/search.py	/^    def result(self, state, action):$/;"	kind:member	line:826
+result	../aimacode/search.py	/^    def result(self, state, row):$/;"	kind:member	line:860
+result	../example_have_cake.py	/^    def result(self, state: str, action: Action):$/;"	kind:member	line:55
+result	../my_air_cargo_problems.py	/^    def result(self, state: str, action: Action):$/;"	kind:member	line:143
+retract	../aimacode/logic.py	/^    def retract(self, sentence):$/;"	kind:member	line:103
+retract	../aimacode/logic.py	/^    def retract(self, sentence):$/;"	kind:member	line:487
+retract	../aimacode/logic.py	/^    def retract(self, sentence):$/;"	kind:member	line:74
+retract	../aimacode/logic.py	/^    def retract(self, sentence):$/;"	kind:member	line:902
+revise	../aimacode/csp.py	/^def revise(csp, Xi, Xj, removals):$/;"	kind:function	line:176
+rewrite	../aimacode/nlp.py	/^    def rewrite(tokens, into):$/;"	kind:function	line:103
+rewrites_for	../aimacode/nlp.py	/^    def rewrites_for(self, cat):$/;"	kind:member	line:46
+rl.py	../aimacode/rl.py	1;"	kind:file	line:1
+rms_error	../aimacode/learning.py	/^def rms_error(predictions, targets):$/;"	kind:function	line:23
+romania_map	../aimacode/search.py	/^romania_map = UndirectedGraph(dict($/;"	kind:variable	line:710
+romania_problem	../aimacode/tests/test_search.py	/^romania_problem = GraphProblem('Arad', 'Bucharest', romania_map)$/;"	kind:variable	line:5
+rot13	../aimacode/text.py	/^def rot13(plaintext):$/;"	kind:function	line:239
+rounder	../aimacode/utils.py	/^def rounder(numbers, d=4):$/;"	kind:function	line:209
+rows	../aimacode/csp.py	/^    rows = _ROWS$/;"	kind:variable	line:560
+rule_match	../aimacode/agents.py	/^def rule_match(state, rules):$/;"	kind:function	line:159
+run	../aimacode/agents.py	/^    def run(self, steps=1000):$/;"	kind:member	line:283
+run_plan	../aimacode/tests/test_search.py	/^    def run_plan(state, problem, plan):$/;"	kind:function	line:60
+run_search	../run_search.py	/^def run_search(problem, search_function, parameter=None):$/;"	kind:function	line:52
+run_search.py	../run_search.py	1;"	kind:file	line:1
+run_single_trial	../aimacode/rl.py	/^def run_single_trial(agent_program, mdp):$/;"	kind:function	line:176
+sample	../aimacode/learning.py	/^    def sample(self):$/;"	kind:member	line:227
+sample	../aimacode/probability.py	/^    def sample(self, event):$/;"	kind:member	line:268
+samples	../aimacode/text.py	/^    def samples(self, n):$/;"	kind:member	line:24
+samples	../aimacode/text.py	/^    def samples(self, nwords):$/;"	kind:member	line:61
+sanitize	../aimacode/learning.py	/^    def sanitize(self, example):$/;"	kind:member	line:154
+sat_count	../aimacode/logic.py	/^            def sat_count(sym):$/;"	kind:function	line:661
+scalar_matrix_product	../aimacode/utils.py	/^def scalar_matrix_product(X, Y):$/;"	kind:function	line:171
+scalar_vector_product	../aimacode/utils.py	/^def scalar_vector_product(X, Y):$/;"	kind:function	line:166
+scanner	../aimacode/nlp.py	/^    def scanner(self, j, word):$/;"	kind:member	line:167
+score	../aimacode/agents.py	/^    def score(env):$/;"	kind:function	line:849
+score	../aimacode/learning.py	/^    def score(learner, size):$/;"	kind:function	line:859
+score	../aimacode/search.py	/^    def score(self):$/;"	kind:member	line:1057
+score	../aimacode/text.py	/^    def score(self, code):$/;"	kind:member	line:348
+score	../aimacode/text.py	/^    def score(self, plaintext):$/;"	kind:member	line:295
+score	../aimacode/text.py	/^    def score(self, word, docid):$/;"	kind:member	line:155
+scores	../aimacode/search.py	/^    scores = [0, 0, 0, 0, 1, 2, 3, 5] + [11] * 100$/;"	kind:variable	line:1055
+screamed	../aimacode/agents.py	/^    screamed = False$/;"	kind:variable	line:660
+search	../aimacode/search.py	/^    def search(self, problem):$/;"	kind:member	line:169
+search.py	../aimacode/search.py	1;"	kind:file	line:1
+sensor_dist	../aimacode/probability.py	/^    def sensor_dist(self, ev):$/;"	kind:member	line:537
+sentence	../lp_utils.py	/^    def sentence(self):$/;"	kind:member	line:14
+sequence	../aimacode/utils.py	/^def sequence(iterable):$/;"	kind:function	line:16
+sequential_decision_environment	../aimacode/mdp.py	/^sequential_decision_environment = GridMDP([[-0.04, -0.04, -0.04, +1],$/;"	kind:variable	line:104
+serialize_actions	../my_planning_graph.py	/^    def serialize_actions(self, node_a1: PgNode_a, node_a2: PgNode_a) -> bool:$/;"	kind:member	line:373
+setUp	../tests/test_my_air_cargo_problems.py	/^    def setUp(self):$/;"	kind:member	line:16
+setUp	../tests/test_my_air_cargo_problems.py	/^    def setUp(self):$/;"	kind:member	line:28
+setUp	../tests/test_my_air_cargo_problems.py	/^    def setUp(self):$/;"	kind:member	line:40
+setUp	../tests/test_my_air_cargo_problems.py	/^    def setUp(self):$/;"	kind:member	line:52
+setUp	../tests/test_my_planning_graph.py	/^    def setUp(self):$/;"	kind:member	line:119
+setUp	../tests/test_my_planning_graph.py	/^    def setUp(self):$/;"	kind:member	line:16
+setUp	../tests/test_my_planning_graph.py	/^    def setUp(self):$/;"	kind:member	line:37
+set_board	../aimacode/search.py	/^    def set_board(self, board=None):$/;"	kind:member	line:1020
+set_label	../aimacode/ipyviews.py	/^    def set_label(self, coordinates, label):$/;"	kind:member	line:109
+set_representation	../aimacode/ipyviews.py	/^    def set_representation(self, thing, repr_type, source):$/;"	kind:member	line:116
+setproblem	../aimacode/learning.py	/^    def setproblem(self, target, inputs=None, exclude=()):$/;"	kind:member	line:105
+shift_encode	../aimacode/text.py	/^def shift_encode(plaintext, n):$/;"	kind:function	line:231
+show	../aimacode/ipyviews.py	/^    def show(self):$/;"	kind:member	line:151
+show	../aimacode/ipyviews.py	/^    def show(self):$/;"	kind:member	line:62
+show	../my_planning_graph.py	/^    def show(self):$/;"	kind:member	line:132
+show	../my_planning_graph.py	/^    def show(self):$/;"	kind:member	line:33
+show	../my_planning_graph.py	/^    def show(self):$/;"	kind:member	line:80
+show_approx	../aimacode/probability.py	/^    def show_approx(self, numfmt='%.3g'):$/;"	kind:member	line:76
+show_box	../aimacode/csp.py	/^        def show_box(box): return [' '.join(map(show_cell, row)) for row in box]$/;"	kind:function	line:576
+show_cell	../aimacode/csp.py	/^        def show_cell(cell): return str(assignment.get(cell, '.'))$/;"	kind:function	line:578
+show_solution	../run_search.py	/^def show_solution(node, elapsed_time):$/;"	kind:function	line:104
+show_state	../aimacode/agents.py	/^    def show_state(self):$/;"	kind:member	line:61
+shuffled	../aimacode/utils.py	/^def shuffled(iterable):$/;"	kind:function	line:81
+sigmoid	../aimacode/utils.py	/^def sigmoid(x):$/;"	kind:function	line:248
+simp	../aimacode/logic.py	/^def simp(x):$/;"	kind:function	line:1001
+simulated_annealing	../aimacode/search.py	/^def simulated_annealing(problem, schedule=exp_schedule()):$/;"	kind:function	line:375
+smooth_for	../aimacode/learning.py	/^    def smooth_for(self, o):$/;"	kind:member	line:208
+solution	../aimacode/search.py	/^    def solution(self):$/;"	kind:member	line:116
+solve_zebra	../aimacode/csp.py	/^def solve_zebra(algorithm=min_conflicts, **args):$/;"	kind:function	line:655
+some_things_at	../aimacode/agents.py	/^    def some_things_at(self, location, tclass=Thing):$/;"	kind:member	line:295
+spare_tire	../aimacode/planning.py	/^def spare_tire():$/;"	kind:function	line:141
+split_by	../aimacode/learning.py	/^    def split_by(attr, examples):$/;"	kind:function	line:395
+sprinkler	../aimacode/probability.py	/^sprinkler = BayesNet([$/;"	kind:variable	line:416
+standardize_variables	../aimacode/logic.py	/^def standardize_variables(sentence, dic=None):$/;"	kind:function	line:853
+step	../aimacode/agents.py	/^    def step(self):$/;"	kind:member	line:267
+step	../aimacode/utils.py	/^def step(x):$/;"	kind:function	line:253
+stripRawHTML	../aimacode/nlp.py	/^def stripRawHTML( raw_html ):$/;"	kind:function	line:246
+stroke	../aimacode/canvas.py	/^    def stroke(self, r, g, b):$/;"	kind:member	line:48
+strokeWidth	../aimacode/canvas.py	/^    def strokeWidth(self, w):$/;"	kind:member	line:52
+subexpressions	../aimacode/utils.py	/^def subexpressions(x):$/;"	kind:function	line:448
+subst	../aimacode/logic.py	/^def subst(s, x):$/;"	kind:function	line:832
+substitute	../aimacode/planning.py	/^    def substitute(self, e, args):$/;"	kind:member	line:62
+succs	../aimacode/games.py	/^    succs = dict(A=dict(a1='B', a2='C', a3='D'),$/;"	kind:variable	line:212
+sum_out	../aimacode/probability.py	/^    def sum_out(self, var, bn):$/;"	kind:member	line:383
+sum_out	../aimacode/probability.py	/^def sum_out(var, factors, bn):$/;"	kind:function	line:359
+support_pruning	../aimacode/csp.py	/^    def support_pruning(self):$/;"	kind:member	line:115
+suppose	../aimacode/csp.py	/^    def suppose(self, var, value):$/;"	kind:member	line:121
+symbols	../aimacode/utils.py	/^def symbols(names):$/;"	kind:function	line:443
+take_single_action	../aimacode/rl.py	/^    def take_single_action(mdp, s, a):$/;"	kind:function	line:181
+tell	../aimacode/logic.py	/^    def tell(self, sentence):$/;"	kind:member	line:477
+tell	../aimacode/logic.py	/^    def tell(self, sentence):$/;"	kind:member	line:62
+tell	../aimacode/logic.py	/^    def tell(self, sentence):$/;"	kind:member	line:88
+tell	../aimacode/logic.py	/^    def tell(self, sentence):$/;"	kind:member	line:893
+terminal_test	../aimacode/games.py	/^    def terminal_test(self, state):$/;"	kind:member	line:193
+terminal_test	../aimacode/games.py	/^    def terminal_test(self, state):$/;"	kind:member	line:231
+terminal_test	../aimacode/games.py	/^    def terminal_test(self, state):$/;"	kind:member	line:271
+test	../aimacode/learning.py	/^def test(predict, dataset, examples=None, verbose=0):$/;"	kind:function	line:762
+testHTML2	../aimacode/tests/test_nlp.py	/^testHTML2 = "Nothing"$/;"	kind:variable	line:28
+test_ACP1_num_fluents	../tests/test_my_air_cargo_problems.py	/^    def test_ACP1_num_fluents(self):$/;"	kind:member	line:19
+test_ACP1_num_requirements	../tests/test_my_air_cargo_problems.py	/^    def test_ACP1_num_requirements(self):$/;"	kind:member	line:22
+test_ACP2_num_fluents	../tests/test_my_air_cargo_problems.py	/^    def test_ACP2_num_fluents(self):$/;"	kind:member	line:31
+test_ACP2_num_requirements	../tests/test_my_air_cargo_problems.py	/^    def test_ACP2_num_requirements(self):$/;"	kind:member	line:34
+test_ACP3_num_fluents	../tests/test_my_air_cargo_problems.py	/^    def test_ACP3_num_fluents(self):$/;"	kind:member	line:43
+test_ACP3_num_requirements	../tests/test_my_air_cargo_problems.py	/^    def test_ACP3_num_requirements(self):$/;"	kind:member	line:46
+test_AC_actions	../tests/test_my_air_cargo_problems.py	/^    def test_AC_actions(self):$/;"	kind:member	line:67
+test_AC_get_actions	../tests/test_my_air_cargo_problems.py	/^    def test_AC_get_actions(self):$/;"	kind:member	line:60
+test_AC_result	../tests/test_my_air_cargo_problems.py	/^    def test_AC_result(self):$/;"	kind:member	line:74
+test_BoggleFinder	../aimacode/tests/test_search.py	/^def test_BoggleFinder():$/;"	kind:function	line:47
+test_Expr	../aimacode/tests/test_utils.py	/^def test_Expr():$/;"	kind:function	line:144
+test_HITS	../aimacode/tests/test_nlp.py	/^def test_HITS():$/;"	kind:function	line:122
+test_KB_wumpus	../aimacode/tests/test_logic.py	/^def test_KB_wumpus():$/;"	kind:function	line:29
+test_LRTAStarAgent	../aimacode/tests/test_search.py	/^def test_LRTAStarAgent():$/;"	kind:function	line:71
+test_PropKB	../aimacode/tests/test_logic.py	/^def test_PropKB():$/;"	kind:function	line:17
+test_SAT_plan	../aimacode/tests/test_logic.py	/^def test_SAT_plan():$/;"	kind:function	line:214
+test_WalkSAT	../aimacode/tests/test_logic.py	/^def test_WalkSAT():$/;"	kind:function	line:194
+test_action	../aimacode/tests/test_planning.py	/^def test_action():$/;"	kind:function	line:6
+test_add_action_level	../tests/test_my_planning_graph.py	/^    def test_add_action_level(self):$/;"	kind:member	line:20
+test_add_literal_level	../tests/test_my_planning_graph.py	/^    def test_add_literal_level(self):$/;"	kind:member	line:27
+test_agent	../aimacode/agents.py	/^def test_agent(AgentFactory, steps, envs):$/;"	kind:function	line:847
+test_air_cargo	../aimacode/tests/test_planning.py	/^def test_air_cargo():$/;"	kind:function	line:23
+test_alphabeta_full_search	../aimacode/tests/test_games.py	/^def test_alphabeta_full_search():$/;"	kind:function	line:39
+test_and_or_graph_search	../aimacode/tests/test_search.py	/^def test_and_or_graph_search():$/;"	kind:function	line:59
+test_argminmax	../aimacode/tests/test_utils.py	/^def test_argminmax():$/;"	kind:function	line:41
+test_ask	../aimacode/tests/test_logic.py	/^    def test_ask(query, kb=None):$/;"	kind:function	line:177
+test_associate	../aimacode/tests/test_logic.py	/^def test_associate():$/;"	kind:function	line:146
+test_astar_search	../aimacode/tests/test_search.py	/^def test_astar_search():$/;"	kind:function	line:39
+test_backtracking_search	../aimacode/tests/test_csp.py	/^def test_backtracking_search():$/;"	kind:function	line:5
+test_bayesnode_p	../aimacode/tests/test_probability.py	/^def test_bayesnode_p():$/;"	kind:function	line:80
+test_bayesnode_sample	../aimacode/tests/test_probability.py	/^def test_bayesnode_sample():$/;"	kind:function	line:86
+test_best_policy	../aimacode/tests/test_mdp.py	/^def test_best_policy():$/;"	kind:function	line:21
+test_bigrams	../aimacode/tests/test_text.py	/^def test_bigrams():$/;"	kind:function	line:188
+test_breadth_first_search	../aimacode/tests/test_search.py	/^def test_breadth_first_search():$/;"	kind:function	line:14
+test_breadth_first_tree_search	../aimacode/tests/test_search.py	/^def test_breadth_first_tree_search():$/;"	kind:function	line:10
+test_canonicalize	../aimacode/tests/test_text.py	/^def test_canonicalize():$/;"	kind:function	line:177
+test_clip	../aimacode/tests/test_utils.py	/^def test_clip():$/;"	kind:function	line:128
+test_competing_needs_mutex	../tests/test_my_planning_graph.py	/^    def test_competing_needs_mutex(self):$/;"	kind:member	line:83
+test_counting_probability_distribution	../aimacode/tests/test_text.py	/^def test_counting_probability_distribution():$/;"	kind:function	line:48
+test_csp.py	../aimacode/tests/test_csp.py	1;"	kind:file	line:1
+test_d	../aimacode/tests/test_logic.py	/^def test_d():$/;"	kind:function	line:190
+test_definite_clause	../aimacode/tests/test_logic.py	/^def test_definite_clause():$/;"	kind:function	line:71
+test_depth_first_graph_search	../aimacode/tests/test_search.py	/^def test_depth_first_graph_search():$/;"	kind:function	line:22
+test_depth_limited_search	../aimacode/tests/test_search.py	/^def test_depth_limited_search():$/;"	kind:function	line:31
+test_detectConvergence	../aimacode/tests/test_nlp.py	/^def test_detectConvergence():$/;"	kind:function	line:97
+test_determineInlinks	../aimacode/tests/test_nlp.py	/^def test_determineInlinks():$/;"	kind:function	line:60
+test_dissociate	../aimacode/tests/test_logic.py	/^def test_dissociate():$/;"	kind:function	line:140
+test_distance	../aimacode/tests/test_grid.py	/^def test_distance():$/;"	kind:function	line:9
+test_distance2	../aimacode/tests/test_grid.py	/^def test_distance2():$/;"	kind:function	line:13
+test_dotproduct	../aimacode/tests/test_utils.py	/^def test_dotproduct():$/;"	kind:function	line:59
+test_dpll	../aimacode/tests/test_logic.py	/^def test_dpll():$/;"	kind:function	line:110
+test_element_wise_product	../aimacode/tests/test_utils.py	/^def test_element_wise_product():$/;"	kind:function	line:63
+test_elemination_ask	../aimacode/tests/test_probability.py	/^def test_elemination_ask():$/;"	kind:function	line:100
+test_eliminate_implications	../aimacode/tests/test_logic.py	/^def test_eliminate_implications():$/;"	kind:function	line:134
+test_enumerate_joint	../aimacode/tests/test_probability.py	/^def test_enumerate_joint():$/;"	kind:function	line:61
+test_enumerate_joint_ask	../aimacode/tests/test_probability.py	/^def test_enumerate_joint_ask():$/;"	kind:function	line:71
+test_enumeration_ask	../aimacode/tests/test_probability.py	/^def test_enumeration_ask():$/;"	kind:function	line:94
+test_event_values	../aimacode/tests/test_probability.py	/^def test_event_values():$/;"	kind:function	line:56
+test_expand_pages	../aimacode/tests/test_nlp.py	/^def test_expand_pages():$/;"	kind:function	line:73
+test_expr	../aimacode/tests/test_logic.py	/^def test_expr():$/;"	kind:function	line:6
+test_expr	../aimacode/tests/test_utils.py	/^def test_expr():$/;"	kind:function	line:167
+test_extend	../aimacode/tests/test_logic.py	/^def test_extend():$/;"	kind:function	line:13
+test_findOutlinks_wiki	../aimacode/tests/test_nlp.py	/^def test_findOutlinks_wiki():$/;"	kind:function	line:64
+test_first	../aimacode/tests/test_utils.py	/^def test_first():$/;"	kind:function	line:26
+test_fixed_lag_smoothing	../aimacode/tests/test_probability.py	/^def test_fixed_lag_smoothing():$/;"	kind:function	line:135
+test_fol_bc_ask	../aimacode/tests/test_logic.py	/^def test_fol_bc_ask():$/;"	kind:function	line:176
+test_forward_backward	../aimacode/tests/test_probability.py	/^def test_forward_backward():$/;"	kind:function	line:120
+test_games.py	../aimacode/tests/test_games.py	1;"	kind:file	line:1
+test_getInlinks	../aimacode/tests/test_nlp.py	/^def test_getInlinks():$/;"	kind:function	line:114
+test_getOutlinks	../aimacode/tests/test_nlp.py	/^def test_getOutlinks():$/;"	kind:function	line:118
+test_grid.py	../aimacode/tests/test_grid.py	1;"	kind:file	line:1
+test_h_ignore_preconditions	../tests/test_my_air_cargo_problems.py	/^    def test_h_ignore_preconditions(self):$/;"	kind:member	line:79
+test_have_cake_and_eat_cake_too	../aimacode/tests/test_planning.py	/^def test_have_cake_and_eat_cake_too():$/;"	kind:function	line:62
+test_histogram	../aimacode/tests/test_utils.py	/^def test_histogram():$/;"	kind:function	line:47
+test_inconsistent_effects_mutex	../tests/test_my_planning_graph.py	/^    def test_inconsistent_effects_mutex(self):$/;"	kind:member	line:69
+test_inconsistent_support_mutex	../tests/test_my_planning_graph.py	/^    def test_inconsistent_support_mutex(self):$/;"	kind:member	line:96
+test_interference_mutex	../tests/test_my_planning_graph.py	/^    def test_interference_mutex(self):$/;"	kind:member	line:75
+test_inverse_matrix	../aimacode/tests/test_utils.py	/^def test_inverse_matrix():$/;"	kind:function	line:104
+test_ir_system	../aimacode/tests/test_text.py	/^def test_ir_system():$/;"	kind:function	line:101
+test_is_in	../aimacode/tests/test_utils.py	/^def test_is_in():$/;"	kind:function	line:35
+test_iterative_deepening_search	../aimacode/tests/test_search.py	/^def test_iterative_deepening_search():$/;"	kind:function	line:27
+test_jointprob	../aimacode/tests/test_probability.py	/^def test_jointprob():$/;"	kind:function	line:48
+test_kb	../aimacode/logic.py	/^test_kb = FolKB($/;"	kind:variable	line:909
+test_learning.py	../aimacode/tests/test_learning.py	1;"	kind:file	line:1
+test_levelsum	../tests/test_my_planning_graph.py	/^    def test_levelsum(self):$/;"	kind:member	line:123
+test_lexicon	../aimacode/tests/test_nlp.py	/^def test_lexicon():$/;"	kind:function	line:14
+test_likelihood_weighting	../aimacode/tests/test_probability.py	/^def test_likelihood_weighting():$/;"	kind:function	line:113
+test_logic.py	../aimacode/tests/test_logic.py	1;"	kind:file	line:1
+test_matrix_multiplication	../aimacode/tests/test_utils.py	/^def test_matrix_multiplication():$/;"	kind:function	line:68
+test_mdp.py	../aimacode/tests/test_mdp.py	1;"	kind:file	line:1
+test_minimax_decision	../aimacode/tests/test_games.py	/^def test_minimax_decision():$/;"	kind:function	line:32
+test_move_not_inwards	../aimacode/tests/test_logic.py	/^def test_move_not_inwards():$/;"	kind:function	line:153
+test_my_air_cargo_problems.py	../tests/test_my_air_cargo_problems.py	1;"	kind:file	line:1
+test_my_planning_graph.py	../tests/test_my_planning_graph.py	1;"	kind:file	line:1
+test_negation_mutex	../tests/test_my_planning_graph.py	/^    def test_negation_mutex(self):$/;"	kind:member	line:90
+test_ngram_models	../aimacode/tests/test_text.py	/^def test_ngram_models():$/;"	kind:function	line:59
+test_nlp.py	../aimacode/tests/test_nlp.py	1;"	kind:file	line:1
+test_normalize	../aimacode/tests/test_nlp.py	/^def test_normalize():$/;"	kind:function	line:88
+test_normalize	../aimacode/tests/test_utils.py	/^def test_normalize():$/;"	kind:function	line:124
+test_num_or_str	../aimacode/tests/test_utils.py	/^def test_num_or_str():$/;"	kind:function	line:119
+test_parse_csv	../aimacode/tests/test_learning.py	/^def test_parse_csv():$/;"	kind:function	line:5
+test_parse_neighbours	../aimacode/tests/test_csp.py	/^def test_parse_neighbours():$/;"	kind:function	line:22
+test_particle_filtering	../aimacode/tests/test_probability.py	/^def test_particle_filtering():$/;"	kind:function	line:156
+test_pl_fc_entails	../aimacode/tests/test_logic.py	/^def test_pl_fc_entails():$/;"	kind:function	line:123
+test_pl_true	../aimacode/tests/test_logic.py	/^def test_pl_true():$/;"	kind:function	line:80
+test_planning.py	../aimacode/tests/test_planning.py	1;"	kind:file	line:1
+test_policy_iteration	../aimacode/tests/test_mdp.py	/^def test_policy_iteration():$/;"	kind:function	line:14
+test_probability.py	../aimacode/tests/test_probability.py	1;"	kind:file	line:1
+test_probdist_basic	../aimacode/tests/test_probability.py	/^def test_probdist_basic():$/;"	kind:function	line:30
+test_probdist_frequency	../aimacode/tests/test_probability.py	/^def test_probdist_frequency():$/;"	kind:function	line:36
+test_probdist_normalize	../aimacode/tests/test_probability.py	/^def test_probdist_normalize():$/;"	kind:function	line:41
+test_product	../aimacode/tests/test_utils.py	/^def test_product():$/;"	kind:function	line:21
+test_random_tests	../aimacode/tests/test_games.py	/^def test_random_tests():$/;"	kind:function	line:62
+test_recursive_best_first_search	../aimacode/tests/test_search.py	/^def test_recursive_best_first_search():$/;"	kind:function	line:43
+test_rejection_sampling	../aimacode/tests/test_probability.py	/^def test_rejection_sampling():$/;"	kind:function	line:106
+test_relevant_pages	../aimacode/tests/test_nlp.py	/^def test_relevant_pages():$/;"	kind:function	line:83
+test_removeall_list	../aimacode/tests/test_utils.py	/^def test_removeall_list():$/;"	kind:function	line:5
+test_removeall_string	../aimacode/tests/test_utils.py	/^def test_removeall_string():$/;"	kind:function	line:11
+test_rot13_decoding	../aimacode/tests/test_text.py	/^def test_rot13_decoding():$/;"	kind:function	line:40
+test_rot13_encoding	../aimacode/tests/test_text.py	/^def test_rot13_encoding():$/;"	kind:function	line:34
+test_rounder	../aimacode/tests/test_utils.py	/^def test_rounder():$/;"	kind:function	line:110
+test_rules	../aimacode/tests/test_nlp.py	/^def test_rules():$/;"	kind:function	line:10
+test_scalar_matrix_product	../aimacode/tests/test_utils.py	/^def test_scalar_matrix_product():$/;"	kind:function	line:99
+test_scalar_vector_product	../aimacode/tests/test_utils.py	/^def test_scalar_vector_product():$/;"	kind:function	line:95
+test_search.py	../aimacode/tests/test_search.py	1;"	kind:file	line:1
+test_serialize_mutex	../tests/test_my_planning_graph.py	/^    def test_serialize_mutex(self):$/;"	kind:member	line:62
+test_shift_decoding	../aimacode/tests/test_text.py	/^def test_shift_decoding():$/;"	kind:function	line:26
+test_shift_encoding	../aimacode/tests/test_text.py	/^def test_shift_encoding():$/;"	kind:function	line:20
+test_sigmoid	../aimacode/tests/test_utils.py	/^def test_sigmoid():$/;"	kind:function	line:132
+test_spare_tire	../aimacode/tests/test_planning.py	/^def test_spare_tire():$/;"	kind:function	line:38
+test_standardize_variables	../aimacode/tests/test_logic.py	/^def test_standardize_variables():$/;"	kind:function	line:169
+test_step	../aimacode/tests/test_utils.py	/^def test_step():$/;"	kind:function	line:138
+test_stripRawHTML	../aimacode/tests/test_nlp.py	/^def test_stripRawHTML():$/;"	kind:function	line:53
+test_text.py	../aimacode/tests/test_text.py	1;"	kind:file	line:1
+test_three_block_tower	../aimacode/tests/test_planning.py	/^def test_three_block_tower():$/;"	kind:function	line:50
+test_to_cnf	../aimacode/tests/test_logic.py	/^def test_to_cnf():$/;"	kind:function	line:159
+test_translate	../aimacode/tests/test_text.py	/^def test_translate():$/;"	kind:function	line:181
+test_tt_entails	../aimacode/tests/test_logic.py	/^def test_tt_entails():$/;"	kind:function	line:128
+test_tt_true	../aimacode/tests/test_logic.py	/^def test_tt_true():$/;"	kind:function	line:91
+test_uniform_cost_search	../aimacode/tests/test_search.py	/^def test_uniform_cost_search():$/;"	kind:function	line:18
+test_unify	../aimacode/tests/test_logic.py	/^def test_unify():$/;"	kind:function	line:118
+test_unigram_text_model	../aimacode/tests/test_text.py	/^def test_unigram_text_model():$/;"	kind:function	line:9
+test_unique	../aimacode/tests/test_utils.py	/^def test_unique():$/;"	kind:function	line:16
+test_universal_dict	../aimacode/tests/test_csp.py	/^def test_universal_dict():$/;"	kind:function	line:17
+test_utils.py	../aimacode/tests/test_utils.py	1;"	kind:file	line:1
+test_value_iteration	../aimacode/tests/test_mdp.py	/^def test_value_iteration():$/;"	kind:function	line:5
+test_vector_add	../aimacode/tests/test_utils.py	/^def test_vector_add():$/;"	kind:function	line:91
+test_vector_clip	../aimacode/tests/test_grid.py	/^def test_vector_clip():$/;"	kind:function	line:17
+test_vector_to_diagonal	../aimacode/tests/test_utils.py	/^def test_vector_to_diagonal():$/;"	kind:function	line:86
+test_weighted_mode	../aimacode/tests/test_learning.py	/^def test_weighted_mode():$/;"	kind:function	line:9
+test_weighted_replicate	../aimacode/tests/test_learning.py	/^def test_weighted_replicate():$/;"	kind:function	line:13
+test_words	../aimacode/tests/test_text.py	/^def test_words():$/;"	kind:function	line:173
+tests	../aimacode/tests/test_probability.py	/^def tests():$/;"	kind:function	line:7
+text	../aimacode/canvas.py	/^    def text(self, txt, x, y, fill=True):$/;"	kind:member	line:101
+text.py	../aimacode/text.py	1;"	kind:file	line:1
+text_n	../aimacode/canvas.py	/^    def text_n(self, txt, xn, yn, fill=True):$/;"	kind:member	line:108
+thing_classes	../aimacode/agents.py	/^    def thing_classes(self):$/;"	kind:member	line:241
+thing_classes	../aimacode/agents.py	/^    def thing_classes(self):$/;"	kind:member	line:564
+thing_classes	../aimacode/agents.py	/^    def thing_classes(self):$/;"	kind:member	line:602
+things_near	../aimacode/agents.py	/^    def things_near(self, location, radius=None):$/;"	kind:member	line:398
+three_block_tower	../aimacode/planning.py	/^def three_block_tower():$/;"	kind:function	line:179
+to_arrows	../aimacode/mdp.py	/^    def to_arrows(self, policy):$/;"	kind:member	line:93
+to_cnf	../aimacode/logic.py	/^def to_cnf(s):$/;"	kind:function	line:293
+to_grid	../aimacode/mdp.py	/^    def to_grid(self, mapping):$/;"	kind:member	line:87
+to_move	../aimacode/games.py	/^    def to_move(self, state):$/;"	kind:member	line:197
+to_move	../aimacode/games.py	/^    def to_move(self, state):$/;"	kind:member	line:234
+top	../aimacode/learning.py	/^    def top(self, n):$/;"	kind:member	line:223
+topological_sort	../aimacode/csp.py	/^def topological_sort(xs, x):$/;"	kind:function	line:323
+total_score	../aimacode/text.py	/^    def total_score(self, words, docid):$/;"	kind:member	line:161
+train	../aimacode/learning.py	/^    def train(dataset):$/;"	kind:function	line:670
+train	../aimacode/learning.py	/^    def train(dataset):$/;"	kind:function	line:683
+train	../aimacode/learning.py	/^    def train(dataset, weights):$/;"	kind:function	line:729
+train_and_test	../aimacode/learning.py	/^def train_and_test(dataset, start, end):$/;"	kind:function	line:782
+translate	../aimacode/text.py	/^def translate(plaintext, function):$/;"	kind:function	line:249
+translate_to_SAT	../aimacode/logic.py	/^    def translate_to_SAT(init, transition, goal, time):$/;"	kind:function	line:694
+tree_csp_solver	../aimacode/csp.py	/^def tree_csp_solver(csp):$/;"	kind:function	line:308
+tree_search	../aimacode/search.py	/^def tree_search(problem, frontier):$/;"	kind:function	line:176
+tt_check_all	../aimacode/logic.py	/^def tt_check_all(kb, alpha, symbols, model):$/;"	kind:function	line:202
+tt_entails	../aimacode/logic.py	/^def tt_entails(kb, alpha):$/;"	kind:function	line:191
+tt_true	../aimacode/logic.py	/^def tt_true(s):$/;"	kind:function	line:227
+ttt	../aimacode/tests/test_games.py	/^ttt = TicTacToe()$/;"	kind:variable	line:12
+turn_heading	../aimacode/agents.py	/^    def turn_heading(self, heading, inc):$/;"	kind:member	line:508
+turn_heading	../aimacode/grid.py	/^def turn_heading(heading, inc, headings=orientations):$/;"	kind:function	line:12
+turn_left	../aimacode/grid.py	/^def turn_left(heading):$/;"	kind:function	line:20
+turn_right	../aimacode/grid.py	/^def turn_right(heading):$/;"	kind:function	line:16
+unassign	../aimacode/csp.py	/^    def unassign(self, var, assignment):$/;"	kind:member	line:464
+unassign	../aimacode/csp.py	/^    def unassign(self, var, assignment):$/;"	kind:member	line:68
+uniform_cost_search	../aimacode/search.py	/^def uniform_cost_search(problem):$/;"	kind:function	line:271
+unify	../aimacode/logic.py	/^def unify(x, y, s):$/;"	kind:function	line:771
+unify_var	../aimacode/logic.py	/^def unify_var(var, x, s):$/;"	kind:function	line:800
+unique	../aimacode/utils.py	/^def unique(seq):  # TODO: replace with set$/;"	kind:function	line:30
+unit_clause_assign	../aimacode/logic.py	/^def unit_clause_assign(clause, model):$/;"	kind:function	line:603
+unload_actions	../my_air_cargo_problems.py	/^        def unload_actions():$/;"	kind:function	line:76
+unordered_domain_values	../aimacode/csp.py	/^def unordered_domain_values(var, assignment, csp):$/;"	kind:function	line:214
+update	../aimacode/canvas.py	/^    def update(self):$/;"	kind:member	line:118
+update_a_mutex	../my_planning_graph.py	/^    def update_a_mutex(self, nodeset):$/;"	kind:member	line:349
+update_s_mutex	../my_planning_graph.py	/^    def update_s_mutex(self, nodeset: set):$/;"	kind:member	line:439
+update_state	../aimacode/rl.py	/^    def update_state(self, percept):$/;"	kind:member	line:107
+update_state	../aimacode/rl.py	/^    def update_state(self, percept):$/;"	kind:member	line:170
+update_state	../aimacode/rl.py	/^    def update_state(self, percept):$/;"	kind:member	line:63
+update_state	../aimacode/search.py	/^    def update_state(self, percept):$/;"	kind:member	line:160
+update_state	../aimacode/search.py	/^    def update_state(self, percept):$/;"	kind:member	line:467
+update_state	../aimacode/search.py	/^    def update_state(self, percept):$/;"	kind:member	line:504
+usa	../aimacode/csp.py	/^usa = MapColoringCSP(list('RGBY'),$/;"	kind:variable	line:386
+utility	../aimacode/games.py	/^    def utility(self, state, player):$/;"	kind:member	line:189
+utility	../aimacode/games.py	/^    def utility(self, state, player):$/;"	kind:member	line:225
+utility	../aimacode/games.py	/^    def utility(self, state, player):$/;"	kind:member	line:267
+utils	../aimacode/games.py	/^    utils = dict(B1=3, B2=12, B3=8, C1=2, C2=4, C3=6, D1=14, D2=5, D3=2)$/;"	kind:variable	line:216
+utils.py	../aimacode/utils.py	1;"	kind:file	line:1
+vacumm_world	../aimacode/search.py	/^vacumm_world = Graph(dict($/;"	kind:variable	line:746
+vacumm_world	../aimacode/tests/test_search.py	/^vacumm_world = GraphProblemStochastic('State_1', ['State_7', 'State_8'], vacumm_world)$/;"	kind:variable	line:6
+value	../aimacode/search.py	/^    def value(self, state):$/;"	kind:member	line:1128
+value	../aimacode/search.py	/^    def value(self, state):$/;"	kind:member	line:70
+value_iteration	../aimacode/mdp.py	/^def value_iteration(mdp, epsilon=0.001):$/;"	kind:function	line:112
+values	../aimacode/probability.py	/^    def values(self, var):$/;"	kind:member	line:115
+variable_node	../aimacode/probability.py	/^    def variable_node(self, var):$/;"	kind:member	line:188
+variable_values	../aimacode/probability.py	/^    def variable_values(self, var):$/;"	kind:member	line:197
+variables	../aimacode/logic.py	/^def variables(s):$/;"	kind:function	line:150
+vector_add	../aimacode/utils.py	/^def vector_add(a, b):$/;"	kind:function	line:160
+vector_clip	../aimacode/grid.py	/^def vector_clip(vector, lowest, highest):$/;"	kind:function	line:34
+vector_to_diagonal	../aimacode/utils.py	/^def vector_to_diagonal(v):$/;"	kind:function	line:150
+verify_query	../aimacode/tests/test_text.py	/^    def verify_query(query, expected):$/;"	kind:function	line:107
+viterbi_segment	../aimacode/text.py	/^def viterbi_segment(text, P):$/;"	kind:function	line:78
+waiting_decision_tree	../aimacode/learning.py	/^waiting_decision_tree = T('Patrons',$/;"	kind:variable	line:904
+weighted_mode	../aimacode/learning.py	/^def weighted_mode(values, weights):$/;"	kind:function	line:713
+weighted_replicate	../aimacode/learning.py	/^def weighted_replicate(seq, weights, n):$/;"	kind:function	line:742
+weighted_sample	../aimacode/probability.py	/^def weighted_sample(bn, e):$/;"	kind:function	line:478
+weighted_sample_with_replacement	../aimacode/utils.py	/^def weighted_sample_with_replacement(seq, weights, n):$/;"	kind:function	line:191
+weighted_sampler	../aimacode/utils.py	/^def weighted_sampler(seq, weights):$/;"	kind:function	line:200
+wordlist	../aimacode/search.py	/^    wordlist = None  # A class variable, holding a wordlist$/;"	kind:variable	line:1011
+words	../aimacode/search.py	/^    def words(self):$/;"	kind:member	line:1051
+words	../aimacode/text.py	/^def words(text, reg=re.compile('[a-z0-9]+')):$/;"	kind:function	line:202
+wumpus_world_inference	../aimacode/logic.py	/^wumpus_world_inference = expr("(B11 <=> (P12 | P21))  &  ~B11")$/;"	kind:variable	line:523
+zebra_constraint	../aimacode/csp.py	/^    def zebra_constraint(A, a, B, b, recurse=0):$/;"	kind:function	line:616
+zoo	../aimacode/learning.py	/^zoo = DataSet(name='zoo', target='type', exclude=['name'],$/;"	kind:variable	line:872
