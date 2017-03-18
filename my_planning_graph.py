@@ -460,12 +460,10 @@ class PlanningGraph():
         '''
 
         # TODO test for Competing Needs between nodes
-        for pre in node_a1.action.precond_pos:
-            if pre in node_a2.action.precond_neg:
-                return True
-        for pre in node_a1.action.precond_neg:
-            if pre in node_a2.action.precond_pos:
-                return True
+        for pgnode_s1 in node_a1.parents:
+            for pgnode_s2 in node_a2.parents:
+                if pgnode_s1.is_mutex(pgnode_s2):
+                    return True
         return False
 
     def update_s_mutex(self, nodeset: set):
@@ -505,7 +503,8 @@ class PlanningGraph():
         :return: bool
         '''
         # TODO test for negation between nodes
-        return node_s1 == node_s2 and node_s1.is_pos != node_s2.is_pos
+        return (node_s1.symbol == node_s2.symbol) \
+                and (node_s1.is_pos != node_s2.is_pos)
 
     def inconsistent_support_mutex(self, node_s1: PgNode_s, node_s2: PgNode_s):
         '''
@@ -523,13 +522,16 @@ class PlanningGraph():
         :param node_s2: PgNode_s
         :return: bool
         '''
-        # TODO test for Inconsistent Support between nodes
-        #x = 1
-        #for a_level in self.a_levels:
-        #    for action in a_level:
-        # TODO: not at all sure I understand this...there's more to it, right?
-        assert node_s1.is_mutex(node_s2) == node_s2.is_mutex(node_s1)
-        return node_s1.is_mutex(node_s2)
+        # TODO test for Inconsistent Support between nodes        
+        if len(node_s1.parents) == 0 or len(node_s2.parents) == 0:
+            return False
+
+        for node_a1 in node_s1.parents:
+            for node_a2 in node_s2.parents:
+                if not node_a1.is_mutex(node_a2):
+                    return False
+
+        return True
 
     def h_levelsum(self) -> int:
         '''The sum of the level costs of the individual goals (admissible if goals independent)

@@ -429,10 +429,10 @@ add	../aimacode/learning.py	/^    def add(self, o):$/;"	kind:member	line:201
 add	../aimacode/learning.py	/^    def add(self, val, subtree):$/;"	kind:member	line:308
 add	../aimacode/probability.py	/^    def add(self, node_spec):$/;"	kind:member	line:177
 add	../aimacode/text.py	/^    def add(self, ngram):$/;"	kind:member	line:46
-add_action_level	../my_planning_graph.py	/^    def add_action_level(self, level):$/;"	kind:member	line:302
+add_action_level	../my_planning_graph.py	/^    def add_action_level(self, level):$/;"	kind:member	line:298
 add_edge	../aimacode/nlp.py	/^    def add_edge(self, edge):$/;"	kind:member	line:155
 add_example	../aimacode/learning.py	/^    def add_example(self, example):$/;"	kind:member	line:132
-add_literal_level	../my_planning_graph.py	/^    def add_literal_level(self, level):$/;"	kind:member	line:327
+add_literal_level	../my_planning_graph.py	/^    def add_literal_level(self, level):$/;"	kind:member	line:324
 add_observer	../aimacode/agents.py	/^    def add_observer(self, observer):$/;"	kind:member	line:499
 add_obstacle	../aimacode/agents.py	/^    def add_obstacle(self, coordinates):$/;"	kind:member	line:535
 add_sequence	../aimacode/text.py	/^    def add_sequence(self, words):$/;"	kind:member	line:53
@@ -441,9 +441,9 @@ add_thing	../aimacode/agents.py	/^    def add_thing(self, thing, location=None):
 add_walls	../aimacode/agents.py	/^    def add_walls(self):$/;"	kind:member	line:486
 agents.py	../aimacode/agents.py	1;"	kind:file	line:1
 air_cargo	../aimacode/planning.py	/^def air_cargo():$/;"	kind:function	line:96
-air_cargo_p1	../my_air_cargo_problems.py	/^def air_cargo_p1() -> AirCargoProblem:$/;"	kind:function	line:210
-air_cargo_p2	../my_air_cargo_problems.py	/^def air_cargo_p2() -> AirCargoProblem:$/;"	kind:function	line:235
-air_cargo_p3	../my_air_cargo_problems.py	/^def air_cargo_p3() -> AirCargoProblem:$/;"	kind:function	line:240
+air_cargo_p1	../my_air_cargo_problems.py	/^def air_cargo_p1() -> AirCargoProblem:$/;"	kind:function	line:215
+air_cargo_p2	../my_air_cargo_problems.py	/^def air_cargo_p2() -> AirCargoProblem:$/;"	kind:function	line:240
+air_cargo_p3	../my_air_cargo_problems.py	/^def air_cargo_p3() -> AirCargoProblem:$/;"	kind:function	line:288
 alert	../aimacode/canvas.py	/^    def alert(self, message):$/;"	kind:member	line:114
 all_events	../aimacode/probability.py	/^def all_events(variables, bn, e):$/;"	kind:function	line:402
 all_same_class	../aimacode/learning.py	/^    def all_same_class(examples):$/;"	kind:function	line:375
@@ -513,7 +513,7 @@ compare_agents	../aimacode/agents.py	/^def compare_agents(EnvFactory, AgentFacto
 compare_graph_searchers	../aimacode/search.py	/^def compare_graph_searchers():$/;"	kind:function	line:1154
 compare_list	../aimacode/tests/test_grid.py	/^def compare_list(x, y):$/;"	kind:function	line:5
 compare_searchers	../aimacode/search.py	/^def compare_searchers(problems, header,$/;"	kind:function	line:1139
-competing_needs_mutex	../my_planning_graph.py	/^    def competing_needs_mutex(self, node_a1: PgNode_a, node_a2: PgNode_a) -> bool:$/;"	kind:member	line:425
+competing_needs_mutex	../my_planning_graph.py	/^    def competing_needs_mutex(self, node_a1: PgNode_a, node_a2: PgNode_a) -> bool:$/;"	kind:member	line:451
 compute_utility	../aimacode/games.py	/^    def compute_utility(self, board, move, player):$/;"	kind:member	line:282
 conflict	../aimacode/csp.py	/^        def conflict(var2):$/;"	kind:function	line:78
 conflict	../aimacode/search.py	/^    def conflict(self, row1, col1, row2, col2):$/;"	kind:member	line:872
@@ -672,7 +672,7 @@ h_1	../example_have_cake.py	/^    def h_1(self, node: Node):$/;"	kind:member	lin
 h_1	../my_air_cargo_problems.py	/^    def h_1(self, node: Node):$/;"	kind:member	line:181
 h_ignore_preconditions	../example_have_cake.py	/^    def h_ignore_preconditions(self, node: Node):$/;"	kind:member	line:93
 h_ignore_preconditions	../my_air_cargo_problems.py	/^    def h_ignore_preconditions(self, node: Node):$/;"	kind:member	line:198
-h_levelsum	../my_planning_graph.py	/^    def h_levelsum(self) -> int:$/;"	kind:member	line:493
+h_levelsum	../my_planning_graph.py	/^    def h_levelsum(self) -> int:$/;"	kind:member	line:528
 h_pg_levelsum	../example_have_cake.py	/^    def h_pg_levelsum(self, node: Node):$/;"	kind:member	line:85
 h_pg_levelsum	../my_air_cargo_problems.py	/^    def h_pg_levelsum(self, node: Node):$/;"	kind:member	line:186
 handle_add_obstacle	../aimacode/ipyviews.py	/^    def handle_add_obstacle(self, vertices):$/;"	kind:member	line:45
@@ -688,8 +688,8 @@ holding	../aimacode/agents.py	/^    holding = []$/;"	kind:variable	line:668
 horn_clauses_KB	../aimacode/logic.py	/^horn_clauses_KB = PropDefiniteKB()$/;"	kind:variable	line:529
 identity	../aimacode/utils.py	/^identity = lambda x: x$/;"	kind:variable	line:65
 in_danger	../aimacode/agents.py	/^    def in_danger(self, agent):$/;"	kind:member	line:809
-inconsistent_effects_mutex	../my_planning_graph.py	/^    def inconsistent_effects_mutex(self, node_a1: PgNode_a, node_a2: PgNode_a) -> bool:$/;"	kind:member	line:391
-inconsistent_support_mutex	../my_planning_graph.py	/^    def inconsistent_support_mutex(self, node_s1: PgNode_s, node_s2: PgNode_s):$/;"	kind:member	line:474
+inconsistent_effects_mutex	../my_planning_graph.py	/^    def inconsistent_effects_mutex(self, node_a1: PgNode_a, node_a2: PgNode_a) -> bool:$/;"	kind:member	line:393
+inconsistent_support_mutex	../my_planning_graph.py	/^    def inconsistent_support_mutex(self, node_s1: PgNode_s, node_s2: PgNode_s):$/;"	kind:member	line:508
 index_collection	../aimacode/text.py	/^    def index_collection(self, filenames):$/;"	kind:member	line:125
 index_document	../aimacode/text.py	/^    def index_document(self, text, url):$/;"	kind:member	line:132
 infer_assignment	../aimacode/csp.py	/^    def infer_assignment(self):$/;"	kind:member	line:138
@@ -701,7 +701,7 @@ initPages	../aimacode/nlp.py	/^def initPages( addressList ):$/;"	kind:function	l
 init_world	../aimacode/agents.py	/^    def init_world(self, program):$/;"	kind:member	line:686
 initial	../aimacode/games.py	/^    initial = 'A'$/;"	kind:variable	line:217
 inspect_literal	../aimacode/logic.py	/^def inspect_literal(literal):$/;"	kind:function	line:626
-interference_mutex	../my_planning_graph.py	/^    def interference_mutex(self, node_a1: PgNode_a, node_a2: PgNode_a) -> bool:$/;"	kind:member	line:408
+interference_mutex	../my_planning_graph.py	/^    def interference_mutex(self, node_a1: PgNode_a, node_a2: PgNode_a) -> bool:$/;"	kind:member	line:422
 inverse_matrix	../aimacode/utils.py	/^def inverse_matrix(X):$/;"	kind:function	line:175
 ipyviews.py	../aimacode/ipyviews.py	1;"	kind:file	line:1
 iris	../aimacode/learning.py	/^iris = DataSet(name="iris", target="class",$/;"	kind:variable	line:878
@@ -783,7 +783,7 @@ my_planning_graph.py	../my_planning_graph.py	1;"	kind:file	line:1
 name	../aimacode/utils.py	/^def name(obj):$/;"	kind:function	line:294
 nconflicts	../aimacode/csp.py	/^    def nconflicts(self, var, val, assignment):$/;"	kind:member	line:445
 nconflicts	../aimacode/csp.py	/^    def nconflicts(self, var, val, assignment):$/;"	kind:member	line:75
-negation_mutex	../my_planning_graph.py	/^    def negation_mutex(self, node_s1: PgNode_s, node_s2: PgNode_s) -> bool:$/;"	kind:member	line:458
+negation_mutex	../my_planning_graph.py	/^    def negation_mutex(self, node_s1: PgNode_s, node_s2: PgNode_s) -> bool:$/;"	kind:member	line:488
 neighbors	../aimacode/csp.py	/^    neighbors = _NEIGHBORS$/;"	kind:variable	line:562
 network	../aimacode/learning.py	/^def network(input_units, hidden_layer_sizes, output_units):$/;"	kind:function	line:500
 new_program	../aimacode/agents.py	/^    def new_program(percept):$/;"	kind:function	line:107
@@ -955,7 +955,7 @@ sensor_dist	../aimacode/probability.py	/^    def sensor_dist(self, ev):$/;"	kind
 sentence	../lp_utils.py	/^    def sentence(self):$/;"	kind:member	line:14
 sequence	../aimacode/utils.py	/^def sequence(iterable):$/;"	kind:function	line:16
 sequential_decision_environment	../aimacode/mdp.py	/^sequential_decision_environment = GridMDP([[-0.04, -0.04, -0.04, +1],$/;"	kind:variable	line:104
-serialize_actions	../my_planning_graph.py	/^    def serialize_actions(self, node_a1: PgNode_a, node_a2: PgNode_a) -> bool:$/;"	kind:member	line:373
+serialize_actions	../my_planning_graph.py	/^    def serialize_actions(self, node_a1: PgNode_a, node_a2: PgNode_a) -> bool:$/;"	kind:member	line:375
 setUp	../tests/test_my_air_cargo_problems.py	/^    def setUp(self):$/;"	kind:member	line:16
 setUp	../tests/test_my_air_cargo_problems.py	/^    def setUp(self):$/;"	kind:member	line:28
 setUp	../tests/test_my_air_cargo_problems.py	/^    def setUp(self):$/;"	kind:member	line:40
@@ -1209,8 +1209,8 @@ unit_clause_assign	../aimacode/logic.py	/^def unit_clause_assign(clause, model):
 unload_actions	../my_air_cargo_problems.py	/^        def unload_actions():$/;"	kind:function	line:76
 unordered_domain_values	../aimacode/csp.py	/^def unordered_domain_values(var, assignment, csp):$/;"	kind:function	line:214
 update	../aimacode/canvas.py	/^    def update(self):$/;"	kind:member	line:118
-update_a_mutex	../my_planning_graph.py	/^    def update_a_mutex(self, nodeset):$/;"	kind:member	line:349
-update_s_mutex	../my_planning_graph.py	/^    def update_s_mutex(self, nodeset: set):$/;"	kind:member	line:439
+update_a_mutex	../my_planning_graph.py	/^    def update_a_mutex(self, nodeset):$/;"	kind:member	line:351
+update_s_mutex	../my_planning_graph.py	/^    def update_s_mutex(self, nodeset: set):$/;"	kind:member	line:469
 update_state	../aimacode/rl.py	/^    def update_state(self, percept):$/;"	kind:member	line:107
 update_state	../aimacode/rl.py	/^    def update_state(self, percept):$/;"	kind:member	line:170
 update_state	../aimacode/rl.py	/^    def update_state(self, percept):$/;"	kind:member	line:63
